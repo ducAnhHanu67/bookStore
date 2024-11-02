@@ -19,7 +19,7 @@
     {
       "id": 2,
       "type": "Tiểu thuyết",
-      "title": "Persepolis",
+      "title": "Persepolis: The Story of a Childhood",
       "price": 8.99,
       "cover": "./assets/img/booklist/Comic/Persepolis.jpg",
       "detailImg": [
@@ -135,7 +135,7 @@
       "type": "Văn học Hiện đại",
       "title": "Grave Matter: A Dark Gothic Romance Psych Thriller",
       "price": 17.99,
-      "cover": "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-1.jpg",
+      "cover": "./assets/img/booklist/Science/Grave matter.jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-2.jpg",
         "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-3.jpg"
@@ -152,7 +152,7 @@
       "type": "Science fiction & fantasy",
       "title": "Inviting Bedlam (Demon Bound Book 2)",
       "price": 13.00,
-      "cover": "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-1.jpg",
+      "cover": "./assets/img/booklist/Science/Inviting Bedlam.jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-2.jpg",
         "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-3.jpg"
@@ -169,7 +169,7 @@
       "type": "Science fiction & fantasy",
       "title": "The Warden's Reign: A Blood Magic Lycanthrope",
       "price": 19.99,
-      "cover": "./assets/img/booklist/VHNN/lang-nghe-gio-hat-1.jpg",
+      "cover": "./assets/img/booklist/Science/The Warden's Reign.jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/lang-nghe-gio-hat-2.jpg",
         "./assets/img/booklist/VHNN/lang-nghe-gio-hat-3.jpg"
@@ -186,7 +186,7 @@
       "type": "Science fiction & fantasy",
       "title": "Assassin's Apprentice (The Farseer Trilogy, Book 1)",
       "price": 16.58,
-      "cover": "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-1.jpg",
+      "cover": "./assets/img/booklist/Science/Assassin's Apprentice (The Farseer Trilogy, Book 1).jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-2.jpg",
         "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-3.jpg"
@@ -203,7 +203,7 @@
       "type": "Science fiction & fantasy",
       "title": "Resistance Above Magic: A LitRPG Adventure",
       "price": 15.00,
-      "cover": "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-1.jpg",
+      "cover": "./assets/img/booklist/Science/Resistance Above Magic.jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-2.jpg",
         "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-3.jpg"
@@ -220,7 +220,7 @@
       "type": "Science fiction & fantasy",
       "title": "A Tribute of Fire",
       "price": 13.10,
-      "cover": "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-1.jpg",
+      "cover": "./assets/img/booklist/Science/A Tribute of Fire .jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-2.jpg",
         "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-3.jpg"
@@ -237,7 +237,7 @@
       "type": "Science fiction & fantasy",
       "title": "Goldfinch (The Plated Prisoner Series Book 6)",
       "price": 15.19,
-      "cover": "./assets/img/booklist/VHNN/tan-cung-cua-co-don-1.jpg",
+      "cover": "./assets/img/booklist/Science/Goldfinch .jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/tan-cung-cua-co-don-2.jpg",
         "./assets/img/booklist/VHNN/tan-cung-cua-co-don-3.jpg"
@@ -254,7 +254,7 @@
       "type": "Science fiction & fantasy",
       "title": "The Dying Realms",
       "price": 12.99,
-      "cover": "./assets/img/booklist/VHNN/toi-muon-ve-nha-du-cho-dang-o-nha-1.jpg",
+      "cover": "./assets/img/booklist/Science/The Dying Realms.jpg",
       "detailImg": [
         "./assets/img/booklist/VHNN/toi-muon-ve-nha-du-cho-dang-o-nha-2.jpg"
       ],
@@ -272,7 +272,7 @@
       "type": "Romance",
       "title": "Reckless (Chestnut Springs, 4)",
       "price": 11.46,
-      "cover": "./assets/img/booklist/KIDS/truyen-co-giang-sinh-1.jpg",
+      "cover": "./assets/img/booklist/Romance/Reckless.jpg",
       "detailImg": [
         "./assets/img/booklist/KIDS/truyen-co-giang-sinh-2.jpg",
         "./assets/img/booklist/KIDS/truyen-co-giang-sinh-3.jpg"
@@ -288,7 +288,7 @@
       "type": "Romance",
       "title": "Hopeless (Chestnut Springs, 5)",
       "price": 10.24,
-      "cover": "./assets/img/booklist/KIDS/dong-song-cua-leonie-1.jpg",
+      "cover": "./assets/img/booklist/Romance/Hopeless (Chestnut Springs, 5).jpg",
       "author": "Céline Person, Amélie Dubois",
       "translator": "Tú Uyên",
       "publisher": "NXB Kim Đồng",
@@ -301,7 +301,7 @@
       "type": "Romance",
       "title": "Twisted Love (Twisted, 1)",
       "price": 42.0,
-      "cover": "./assets/img/booklist/KIDS/cau-be-giay-1.jpg",
+      "cover": "./assets/img/booklist/Romance/Twisted Love (Twisted, 1).jpg",
       "author": "Nicolas Digard, Kerascoët",
       "translator": "Tú Uyên",
       "publisher": "NXB Kim Đồng",
@@ -314,7 +314,7 @@
       "type": "Romance",
       "title": "My Dark Romeo: An Enemies-to-Lovers Romance",
       "price": 45.0,
-      "cover": "./assets/img/booklist/KIDS/con-se-nhan-ra-me-du-o-bat-cu-noi-dau-1.jpg",
+      "cover": "./assets/img/booklist/Romance/My dark romeo.jpg",
       "author": "Parker S. Huntington and L.J. Shen",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -326,7 +326,7 @@
       "type": "Romance",
       "title": "My Dark Desire: An Enemies-to-Lovers Romance ",
       "price": 15.02,
-      "cover": "./assets/img/booklist/KIDS/con-se-nhan-ra-bo-du-o-bat-cu-noi-dau-1.jpg",
+      "cover": "./assets/img/booklist/Romance/My Dark Desire.jpg",
       "author": "Parker S. Huntington and L.J. Shen",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -338,7 +338,7 @@
       "type": "Truyện tranh",
       "title": "Truly Madly Deeply (Deluxe Edition)",
       "price": 97.0,
-      "cover": "./assets/img/booklist/KIDS/canh-dong-hoa-cuc-nguu-bang-1.jpg",
+      "cover": "./assets/img/booklist/Romance/Truly Madly Deeply .jpg",
       "detailImg": [
         "./assets/img/booklist/KIDS/canh-dong-hoa-cuc-nguu-bang-2.jpg"
       ],
@@ -354,7 +354,7 @@
       "type": "Romance",
       "title": "King of Wrath (Kings of Sin, 1)",
       "price": 9.00,
-      "cover": "./assets/img/booklist/KIDS/chuyen-nay-chuyen-kia-1.jpg",
+      "cover": "./assets/img/booklist/Romance/King of Wrath (Kings of Sin, 1).jpg",
       "author": "Ana Huang",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -366,7 +366,7 @@
       "type": "Romance",
       "title": "Hunting Adeline (Cat and Mouse Duet)",
       "price": 18.05,
-      "cover": "./assets/img/booklist/KIDS/noi-doi-met-that-day-1.jpg",
+      "cover": "./assets/img/booklist/Romance/Hunting Adeline (Cat and Mouse Duet).jpg",
       "author": "H. D. Carlton",
       "translator": "Tố Uyên",
       "publisher": "NXB Dân Trí",
@@ -408,7 +408,7 @@
     {
       "id": 27,
       "type": "Humor & Entertainment",
-      "title": "Don't Believe Everything You Think: Why Your Thinking Is The Beginning & End Of Suffering (Beyond Suffering)",
+      "title": "Don't Believe Everything You Think:",
       "price": 10.95,
       "cover": "./assets/img/booklist/KIDS/dont-believe-everything.jpg",
       "author": "Joseph Nguyen",
