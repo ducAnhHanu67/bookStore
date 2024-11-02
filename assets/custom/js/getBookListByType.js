@@ -61,7 +61,7 @@ const renderBook = (book) => {
                         class="btn btn-outline-success hvr-pu-grow getBookDetail"
                         key="${bookListContainer.id}_${book.id}"
                       >
-                        Xem thêm
+                        See details
                       </button>  
                       <button
                           type="button"

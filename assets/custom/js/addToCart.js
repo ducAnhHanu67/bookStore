@@ -71,7 +71,7 @@ function handleAddToCartByKey() {
     btn.addEventListener("click", () => {
       const user = JSON.parse(localStorage.getItem("user"));
       if (!user) {
-        alert("Bạn cần đăng nhập để mua hàng");
+        alert("Bạn cần Log In để mua hàng");
         window.location.href = "signin.html";
         return;
       }
@@ -80,7 +80,7 @@ function handleAddToCartByKey() {
       if (book) {
         addBookToCart(book);
         const buyNow = confirm(
-          "Thêm vào giỏ hàng thành công!\nThanh toán ngay."
+          "Add to Cart thành công!\nThanh toán ngay."
         );
         if (buyNow) {
           window.location.href = "checkout.html";

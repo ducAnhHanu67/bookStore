@@ -38,7 +38,7 @@ signupForm.onsubmit = (e) => {
     "animate__tada",
     "animate__infinite"
   );
-  signupTitle.innerHTML = "Đăng ký thành công!";
+  signupTitle.innerHTML = "Register thành công!";
 
   setTimeout(() => {
     window.location.href = "signin.html";

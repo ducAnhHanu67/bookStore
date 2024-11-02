@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const itemsToShow = 3; // Số lượng item hiển thị cùng lúc
 
-    // Sử dụng fetch để lấy dữ liệu từ booklist.json
+    // Fetch book data from booklist.json
     fetch("../data/booklist.json")
         .then((response) => response.json())
         .then((jsonData) => {
@@ -30,14 +30,16 @@ document.addEventListener("DOMContentLoaded", function () {
         function displayBooks() {
             bookContainer.innerHTML = "";
 
-            // Lấy danh sách sách cho chỉ mục hiện tại
+            // Select books for current index range
             const booksToShow = books.slice(currentIndex, currentIndex + itemsToShow);
 
-            // Tạo phần tử HTML cho mỗi sách
             booksToShow.forEach((book) => {
+                console.log(book, 'dic anh');
+
                 const bookDiv = document.createElement("div");
                 bookDiv.classList.add("col-12", "col-sm-6", "col-lg-4", "d-flex", "justify-content-center", "mt-4", "row");
 
+                // Create inner HTML for each book item with the "See details" button linking to the book detail
                 bookDiv.innerHTML = `
                     <div class="col-9 bg-white rounded-2 p-2 product-container rounded-3">
                         <img src="${book.cover}" class="h-50 mx-auto d-block hvr-grow" />
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 ${book.price.toLocaleString("en-US", { style: "currency", currency: "VND" })}
                             </p>
                             <div class="w-100 d-flex justify-content-evenly">
-                                <button class="btn btn-outline-success hvr-pu-grow">Xem thêm</button>
+                                <button class="btn btn-outline-success hvr-pu-grow" onclick="getBookDetail('${book.type}_${book.id}')">See details</button>
                                 <button type="button" class="btn btn-outline-success hvr-grow-shadow w-25">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
@@ -60,27 +62,35 @@ document.addEventListener("DOMContentLoaded", function () {
                 bookContainer.appendChild(bookDiv);
             });
 
-            // Ẩn hiện nút Previous và Next
+            // Handle visibility of navigation buttons
             prevBtn.style.display = currentIndex === 0 ? "none" : "inline-block";
             nextBtn.style.display = currentIndex + itemsToShow >= books.length ? "none" : "inline-block";
         }
 
-        // Sự kiện cho nút Previous
+        // Previous button functionality
         prevBtn.addEventListener("click", function () {
             if (currentIndex > 0) {
-                currentIndex--; // Lùi lại 1 chỉ mục
+                currentIndex--;
                 displayBooks();
             }
         });
 
-        // Sự kiện cho nút Next
+        // Next button functionality
         nextBtn.addEventListener("click", function () {
             if (currentIndex + itemsToShow < books.length) {
-                currentIndex++; // Tiến thêm 1 chỉ mục
+                currentIndex++;
                 displayBooks();
             }
         });
 
-        displayBooks(); // Khởi tạo hiển thị lần đầu
+        displayBooks(); // Initial display of books
     }
 });
+
+// Define the getBookDetail function to store book info in local storage and navigate to the detail page
+function getBookDetail(key) {
+    const [type, id] = key.split("_");
+    const bookInfo = { type, id };
+    localStorage.setItem("bookInfo", JSON.stringify(bookInfo));
+    window.location.href = "bookDetail.html";
+}

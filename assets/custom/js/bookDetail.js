@@ -11,10 +11,15 @@ const bookdescription = document.getElementById("book-description");
 
 // get type and id from local storage
 const bookInfo = JSON.parse(localStorage.getItem("bookInfo"));
+
+console.log(bookInfo, 'bookInfor');
+
 const bookTypes = {
-  VietnameseLiterature: "Sách Tiếng Việt",
-  ForeignLiterature: "Sách Ngoại Văn",
-  Kids: "Sách Thiếu Nhi",
+  Comic: "Comic & Graphic novels",
+  Science: "Science fiction & fantasy",
+  Romance: "Romance",
+  Humor: "Humor",
+  Mystery: "Mystery"
 };
 
 /**
@@ -26,10 +31,16 @@ const bookTypes = {
 if (bookInfo) {
   const type = bookInfo.type;
   const id = parseInt(bookInfo.id);
+
+  console.log(type, 'type', id);
+
+
   var bookData;
   fetch("../data/booklist.json")
     .then((res) => res.json())
     .then((data) => {
+      console.log(data, 'dattttta');
+
       // get book detail
       bookList = data[type];
       console.log(bookList);
@@ -123,9 +134,9 @@ const handleAddToCart = () => {
 
   if (user) {
     addBookToCart();
-    alert("Đã thêm vào giỏ hàng");
+    alert("Đã Add to Cart");
   } else {
-    alert("Bạn cần đăng nhập để mua hàng");
+    alert("Bạn cần Log In để mua hàng");
     window.location.href = "signin.html";
   }
 };
@@ -148,7 +159,7 @@ const handleBuyNow = () => {
     addBookToCart();
     window.location.href = "cart.html";
   } else {
-    alert("Bạn cần đăng nhập để mua hàng");
+    alert("Bạn cần Log In để mua hàng");
     window.location.href = "signin.html";
   }
 };

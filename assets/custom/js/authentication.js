@@ -7,8 +7,8 @@ const user = JSON.parse(localStorage.getItem("user"));
 if (user) {
   const userActionContainer = document.getElementById("user-action-container");
   userActionContainer.innerHTML = `
-    <span class="text-muted mx-1">Xin chào, ${user.name}</span>
-    |<span class="text-muted mx-1 btn p-0 hvr-grow" id="logout">Đăng xuất</span>`;
+    <span class="text-muted mx-1">Hi, ${user.name}</span>
+    |<span class="text-muted mx-1 btn p-0 hvr-grow" id="logout">Log out</span>`;
 }
 
 // handle logout

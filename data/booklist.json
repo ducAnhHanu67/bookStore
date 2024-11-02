@@ -2,7 +2,7 @@
   "Comic & Graphic novels": [
     {
       "id": 1,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Into the Uncut Grass",
       "price": 232.0,
       "cover": "./assets/img/booklist/Comic/IntotheUncutGrass.jpg",
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Persepolis: The Story of a Childhood",
       "price": 8.99,
       "cover": "./assets/img/booklist/Comic/Persepolis.jpg",
@@ -34,7 +34,7 @@
     },
     {
       "id": 3,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Lore Olymous",
       "price": 30.00,
       "cover": "./assets/img/booklist/Comic/LoreOlympus.jpg",
@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "type": "Garfield Donut Disturb: His 76th Book",
+      "type": "Comic & Graphic novels",
       "title": "Garfield Donut Disturb ",
       "price": 16.00,
       "cover": "./assets/img/booklist/Comic/Garfield Donut Disturb.jpg",
@@ -66,7 +66,7 @@
     },
     {
       "id": 5,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "The Hobbit (Graphic Novel)",
       "price": 17.18,
       "cover": "./assets/img/booklist/Comic/The Hobbit.jpg",
@@ -82,7 +82,7 @@
     },
     {
       "id": 6,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Peanuts 2000",
       "price": 16.00,
       "cover": "./assets/img/booklist/Comic/Peanuts 2000.jpg",
@@ -98,7 +98,7 @@
     },
     {
       "id": 7,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Stamped from the Beginning",
       "price": 29.99,
       "cover": "./assets/img/booklist/Comic/Stamped from the Beginning.jpg",
@@ -114,7 +114,7 @@
     },
     {
       "id": 8,
-      "type": "Tiểu thuyết",
+      "type": "Comic & Graphic novels",
       "title": "Father, I Don't Want This Marriage",
       "price": 17.00,
       "cover": "./assets/img/booklist/Comic/Father, I Don't Want This Marriage.jpg",
@@ -132,7 +132,7 @@
   "Science fiction & fantasy": [
     {
       "id": 9,
-      "type": "Văn học Hiện đại",
+      "type": "Science fiction & fantasy",
       "title": "Grave Matter: A Dark Gothic Romance Psych Thriller",
       "price": 17.99,
       "cover": "./assets/img/booklist/Science/Grave matter.jpg",
@@ -335,7 +335,7 @@
     },
     {
       "id": 22,
-      "type": "Truyện tranh",
+      "type": "Romance",
       "title": "Truly Madly Deeply (Deluxe Edition)",
       "price": 97.0,
       "cover": "./assets/img/booklist/Romance/Truly Madly Deeply .jpg",
