@@ -1,0 +1,934 @@
+{
+  "VietnameseLiterature": [
+    {
+      "id": 1,
+      "type": "Tiểu thuyết",
+      "title": "Bỉ Vỏ",
+      "price": 232.0,
+      "cover": "./assets/img/booklist/VHVN/bi-vo-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/bi-vo-2.jpg",
+        "./assets/img/booklist/VHVN/bi-vo-3.jpg"
+      ],
+      "author": "Nguyên Hồng",
+      "publisher": "NXB Văn Học",
+      "year": 2019,
+      "page": 256,
+      "description": "Bỉ vỏ kể câu chuyện cuộc đời Tám-Bính, một gái quê với tâm hồn trong sáng và hướng thiện, từng bước bị xã hội đương thời dìm xuống trong đau khổ và khinh khi, bẻ gãy nhân cách cho đến ngày không còn có thể cứu vãn. Ở bộ minh họa Bỉ vỏ, đôi chỗ Hoàng Phượng Vỹ sử dụng những ẩn dụ tinh tế, đậm chất Việt Nam, thể hiện không chỉ sự tiếp nhận và kết nối của họa sĩ đối với văn bản ông minh họa, mà còn cho thấy rõ mối quan tâm của ông đối với các tác phẩm văn học nói chung. Với “tất cả cảm tình đằm thắm tươi sáng” của Nguyên Hồng khi viết Bỉ vỏ, cũng như tâm huyết của họa sĩ Hoàng Phượng Vỹ khi thực hiện minh họa, những người làm sách hy vọng ấn phẩm này sẽ đưa đến bạn đôi giờ đọc sách lý thú."
+    },
+    {
+      "id": 2,
+      "type": "Tiểu thuyết",
+      "title": "Chỉ về nhà để ngủ",
+      "price": 71.0,
+      "cover": "./assets/img/booklist/VHVN/chi-ve-nha-de-ngu-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/chi-ve-nha-de-ngu-2.jpg",
+        "./assets/img/booklist/VHVN/chi-ve-nha-de-ngu-3.jpg"
+      ],
+      "author": "Minh Nhật",
+      "publisher": "NXB Phụ Nữ",
+      "year": 2021,
+      "page": 176,
+      "description": "Chỉ về nhà để ngủ của Minh Nhật như một trạm cấp “vé du hành” miễn phí, để mỗi người đều có cơ hội khám phá sâu vào vũ trụ bản thân. Thông qua những câu chuyện hiện thực gần gũi, cùng chất văn mang đậm dấu ấn Minh Nhật - rất riêng và đầy cảm xúc, Chỉ về nhà để ngủ dễ dàng chạm đến sự “đồng cảm” nơi trái tim độc giả, giúp ta thoát khỏi vòng xoay vội vã của cuộc sống, sống chậm lại, gom mạnh mẽ và đưa ta về với một khoảng lặng đủ để thấy nhẹ nhõm và bình yên."
+    },
+    {
+      "id": 3,
+      "type": "Tiểu thuyết",
+      "title": "Dị bản",
+      "price": 85.0,
+      "cover": "./assets/img/booklist/VHVN/di-ban-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/di-ban-2.jpg",
+        "./assets/img/booklist/VHVN/di-ban-3.jpg"
+      ],
+      "author": "Nguyễn Đình Khoa",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 244,
+      "description": "Tác giả không chỉ viết một câu chuyện về tình yêu tình thân và sự mất mát - những điều tất yếu mà bất cứ ai cũng phải trải qua, cũng như cô đơn là cái giá mà con người phải trả khi trưởng thành. Đây còn là một câu chuyện về vai trò và trách nhiệm của con người với thế giới mình đang sống. Tác giả dẫn dắt chúng ta đối diện với những thách thức, hệ lụy của thế giới hiện đại như chiến tranh, môi trường, sự phát triển của trí tuệ nhân tạo. Một tác phẩm thể hiện sự nỗ lực, tiến bộ của chính tác giả. Dù còn những hạn chế nhất định khi chọn một chủ đề không dễ viết nhưng cảm xúc chân thành của tác giả tạo được sự rung động và đồng cảm nơi người đọc."
+    },
+    {
+      "id": 4,
+      "type": "Tiểu thuyết",
+      "title": "Giông tố",
+      "price": 250.0,
+      "cover": "./assets/img/booklist/VHVN/giong-to-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/giong-to-2.jpg",
+        "./assets/img/booklist/VHVN/giong-to-3.jpg"
+      ],
+      "author": "Vũ Trọng Phụng",
+      "publisher": "NXB Văn Học",
+      "year": 2022,
+      "page": 358,
+      "description": "Giông tố là tác phẩm mang nội dung châm biếm sâu sắc về một xã hội mục nát, sự hỗn loạn khi pha trộn hai nền văn hóa giữa Tây và ta, thể hiện rõ sự bần cùng của những người nghèo khổ và lên án thái độ sa đọa hống hách của kẻ giàu có. Trong Giông tố, Vũ Trọng Phụng bóc trần mọi khía cạnh xấu xa của con người, sự tha hóa, nhẫn tâm ẩn sâu bên trong một xã hội mục nát. Ông đã thành công xuất sắc trong việc xây dựng một câu chuyện về tầng lớp tư sản thối nát đương thời."
+    },
+    {
+      "id": 5,
+      "type": "Tiểu thuyết",
+      "title": "Nằm vạ",
+      "price": 135.0,
+      "cover": "./assets/img/booklist/VHVN/nam-va-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/nam-va-2.jpg",
+        "./assets/img/booklist/VHVN/nam-va-3.jpg"
+      ],
+      "author": "Bùi Hiển",
+      "publisher": "NXB Hội Nhà Văn",
+      "year": 2022,
+      "page": 140,
+      "description": "“Anh Đỏ vào lôi chị ra, chị bíu chặt lấy chân giường, miệng ngoặp vào chân chồng. Anh đau quá kêu lên: ‘Ái! Đồ chó cắn tề! Được, đã muốn nằm vạ, tau cho nằm.’ Bà mẹ chồng đang bán ngoại chợ mẻ cá mà con đánh được hồi đêm... vội chạy về. Với tất cả cái hùng hổ của những mụ già, mụ xăm xăm vào buồng... Mụ cúi định lôi dậy, lại bị ngoặp vào tay; mụ vừa chạy ra, vừa kêu như sắp bị chết chém: ‘Ủa làng nước ôi! Ủa làng nước ôi! Hắn cắn đứt tay tui rồi!’."
+    },
+    {
+      "id": 6,
+      "type": "Tiểu thuyết",
+      "title": "Số đỏ",
+      "price": 269.0,
+      "cover": "./assets/img/booklist/VHVN/so-do-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/so-do-2.jpg",
+        "./assets/img/booklist/VHVN/so-do-3.jpg"
+      ],
+      "author": "Vũ Trọng Phụng",
+      "publisher": "NXB Văn Học",
+      "year": 2020,
+      "page": 280,
+      "description": "Là tác phẩm nổi tiếng bậc nhất trong cuộc đời sáng tác ngắn ngủi của \"Ông vua phóng sự đất Bắc\" Vũ Trọng Phụng (1912 - 1939), Số đỏ không chỉ thành công với nội dung phản ánh thực trạng xã hội lố lăng, kệch cỡm, mà còn là một đỉnh cao trong nghệ thuật trào phúng, với những trích đoạn đến nay vẫn còn được giảng dạy như hình mẫu trong chương trình văn học phổ thông, hay những câu thoại kinh điển đã đi vào lời ăn tiếng nói của người Việt Nam.Với sự độc đáo, trẻ trung và phong cách hài hước, sự kết hợp giữa minh họa của Nguyễn Thành Phong và cuốn \"hoạt-kê tiểu-thuyết\" (tiểu thuyết khôi hài) của \"Ông vua phóng sự đất Bắc\" Vũ Trọng Phụng hứa hẹn một ấn bản hấp dẫn, đáng kỳ vọng."
+    },
+    {
+      "id": 7,
+      "type": "Tiểu thuyết",
+      "title": "Tết ở làng địa ngục",
+      "price": 140.0,
+      "cover": "./assets/img/booklist/VHVN/tet-o-lang-dia-nguc-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/tet-o-lang-dia-nguc-2.jpg",
+        "./assets/img/booklist/VHVN/tet-o-lang-dia-nguc-3.jpg"
+      ],
+      "author": "Thảo Trang",
+      "publisher": "NXB Thanh Niên",
+      "year": 2022,
+      "page": 545,
+      "description": "Tết Ở Làng Địa Ngục đưa người ta vào một ngôi làng nằm sâu trong một cánh rừng heo hút trên núi cao, nơi sương mù quanh năm che phủ. Ngôi làng vốn dĩ không có tên, nhưng những người nơi đây mặc định chốn này là địa ngục. Dân trong làng không ai dám tự ý băng rừng thoát khỏi làng, càng không biết thế giới bên ngoài rộng lớn như thế nào, bởi lẽ họ sợ người khác sẽ biết rằng bản thân mình vốn là hậu duệ của một băng cướp khét tiếng ở Truông Nhà Hồ ngày trước. Người duy nhất có thể ra khỏi làng để đến phiên chợ dưới núi là ông trưởng làng tên Thập. Vào một đêm cuối năm rét buốt, ông Thập có một giấc mơ kì quái. Trong giấc mơ, ông nhìn thấy một người mặc quan phục màu đỏ rực nói rằng: “ Làng này sắp gặp họa!” Không biết là do giấc mộng đã ứng nghiệm, hay do báo ứng của dân làng đã đến mà làng Địa Ngục sau đó xuất hiện những cái chết kinh hoàng đến mức không thể tưởng tượng nổi..."
+    },
+    {
+      "id": 8,
+      "type": "Tiểu thuyết",
+      "title": "Thung lũng Đồng Vang",
+      "price": 90.0,
+      "cover": "./assets/img/booklist/VHVN/thung-lung-dong-vang-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/thung-lung-dong-vang-2.jpg",
+        "./assets/img/booklist/VHVN/thung-lung-dong-vang-3.jpg"
+      ],
+      "author": "Trung Sỹ",
+      "publisher": "NXB Trẻ",
+      "year": 2022,
+      "page": 236,
+      "description": "Thung lũng Đồng Vang kể chuyện về những đứa học trò: Thụy, Thảo, Dực, Linh, Trương, Loan… vừa tinh quái, vừa lém lỉnh, với nhiều \"phi vụ\" lớn nhỏ, đầy hài hước. Chuyện những thầy cô giáo trẻ đầy nhiệt huyết như thầy Thức, cô Vi vốn là dân Hà Nội tình nguyện lên vùng cao dạy học. Đám học trò tuổi mới lớn và thầy cô giáo trẻ đã khiến cho lớp học ở ngôi trường phố núi đầy tiếng cười và sự thú vị."
+    },
+    {
+      "id": 9,
+      "type": "Tiểu thuyết",
+      "title": "Tình yêu của thánh",
+      "price": 105.0,
+      "cover": "./assets/img/booklist/VHVN/tinh-yeu-cua-thanh-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/tinh-yeu-cua-thanh-2.jpg",
+        "./assets/img/booklist/VHVN/tinh-yeu-cua-thanh-3.jpg"
+      ],
+      "author": "Nguyễn Mạnh Tuấn",
+      "publisher": "Hồng Đức",
+      "year": 2023,
+      "page": 328,
+      "description": "Tình yêu của Thánh viết về tình yêu thuần khiết và thủy chung của nhân vật nữ chính là Hạ Chi, một cô giáo trẻ vùng Tây Nguyên. Cô có người yêu là Nhật Khang, một ông chủ tập đoàn giàu có. Bên cạnh tình yêu của cặp đôi chính thì truyện còn xoay quanh nhiều nhân vật phụ hấp dẫn khác, về tình yêu, tình dục và cuộc sống trăng hoa của giới showbiz vô cùng lôi cuốn. Hai bức tranh đối lập hoàn toàn được vẽ nên trong tiểu thuyết của Nguyễn Mạnh Tuấn, một bên là cảnh xa hoa, ăn chơi trác táng của giới nhà giàu, một bên là cảnh trường học vùng núi nghèo nàn, và bệnh nhân ung thư trút hơi thở cuối cùng. Đây có thể nói là quyển tiểu thuyết hấp dẫn và đáng đọc nhất của Nguyễn Mạnh Tuấn"
+    },
+    {
+      "id": 10,
+      "type": "Tiểu thuyết",
+      "title": "Vang bóng một thời",
+      "price": 140.0,
+      "cover": "./assets/img/booklist/VHVN/vang-bong-mot-thoi-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/vang-bong-mot-thoi-2.jpg",
+        "./assets/img/booklist/VHVN/vang-bong-mot-thoi-3.jpg"
+      ],
+      "author": "Nguyễn Tuân",
+      "publisher": "NXB Hội Nhà Văn",
+      "year": 2021,
+      "page": 212,
+      "description": "Tác phẩm Vang bóng một thời được xem như là một tác phẩm gần như hướng đến sự toàn thiện, toàn mỹ. Đọc tác phẩm, độc giả sẽ cảm nhận được những nếp sống cũ, những nét nghệ thuật cổ thanh cao của một nền văn minh xưa cũ và có chút tiếc nuối cho những cái đẹp. Vang bóng một thời được hình thành trong buổi giao thời và có thể thấy cảnh và người trong tập truyện đều là cảnh và người không được miêu tả kỹ và cụ thể là ở đâu, chỉ rõ được rằng họ ở là dĩ vãng — thứ dĩ vãng đã một thời vang bóng. Những độc giả mẫn cảm với cái đẹp xưa cũ, tuyệt đối sẽ đắm đuối bần thần trong thế giới văn chương của Nguyễn Tuân."
+    },
+    {
+      "id": 11,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Cảm ơn vì đã vượt qua",
+      "price": 60.0,
+      "cover": "./assets/img/booklist/VHVN/cam-on-vi-da-vuot-qua-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/cam-on-vi-da-vuot-qua-2.jpg",
+        "./assets/img/booklist/VHVN/cam-on-vi-da-vuot-qua-3.jpg"
+      ],
+      "author": "Minh Phúc",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 200,
+      "description": "Tản văn của Minh Phúc nâng niu ký ức, cảm xúc và đầy niềm tin vào tương lai với lòng biết ơn, trân trọng từng khoảnh khắc sống. Như nhà báo Trương Gia Hòa đã từng nhận xét: \"Không có một cốt truyện để gây tò mò, tản văn của Minh Phúc bám vào một ký ức, một lát cắt cảm xúc hoặc một tình huống nào đó rồi mọc ra những chiếc lá chữ. Người phụ nữ thích trồng cây từ thời tấm bé này cứ khiến tôi nghĩ chữ của cô là lá. Chữ nào cũng đẹp, tươi xanh, chữ trước hắt ánh sáng cho chữ sau. Lôi kéo, quyến dụ mình phải đọc cho hết bài, cho hết sách. Để rồi, một vùng ký ức hiện ra, một cơn mơ xưa cũ tái hiện chập chờn.\""
+    },
+    {
+      "id": 12,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Dài hơn một mùa hè",
+      "price": 86.0,
+      "cover": "./assets/img/booklist/VHVN/dai-hon-mot-mua-he-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/dai-hon-mot-mua-he-2.jpg",
+        "./assets/img/booklist/VHVN/dai-hon-mot-mua-he-3.jpg"
+      ],
+      "author": "Lu",
+      "publisher": "NXB Phụ Nữ",
+      "year": 2023,
+      "page": 200,
+      "description": "Cuốn sách Dài hơn một mùa hè của tác giả Lu mang đến một thế giới lặng im - nơi bạn ngắm nhìn những ký ức tươi đẹp và ôm ấp nỗi buồn của riêng mình. Cuốn sách là sự đan xen cảm xúc nhẹ nhàng giữa tản văn và thơ trong ba phần: \"Những suy tưởng\", \"Trong thành phố\", và \"Về tình yêu\". Mỹ cảm của một chàng trai Hà Nội trong Lu đi vào những câu thơ không vội vã mà bình tĩnh. Các hình ảnh tinh tế, những suy tưởng thú vị phải trải nghiệm thế nào mới có được."
+    },
+    {
+      "id": 13,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Giọng của phố",
+      "price": 112.0,
+      "cover": "./assets/img/booklist/VHVN/giong-cua-pho-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/giong-cua-pho-2.jpg",
+        "./assets/img/booklist/VHVN/giong-cua-pho-3.jpg"
+      ],
+      "author": "Nguyễn Việt Hà",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 320,
+      "description": "Giọng của phố với cấu trúc 62 bài tạp văn trải dài rộng trên các chủ đề, vẫn phố ấy, người ấy... nhưng những câu chuyện tưởng là phiếm, dường như đã có độ lắng cần thiết để trở thành một thứ rượu nhiều tuổi đượm vị nhưng không gắt. Đọc tạp văn Nguyễn Việt Hà, có thể gặp mênh mông những chuyện Đông-Tây, những pha \"tân-cổ giao duyên\" cực kỳ duyên dáng, nhưng có một cách đọc khác - đó là đọc một \"cái giọng\" - \"giọng của phố\"."
+    },
+    {
+      "id": 14,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Khi tôi sinh ra không giàu",
+      "price": 116.0,
+      "cover": "./assets/img/booklist/VHVN/khi-toi-sinh-ra-khong-giau-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/khi-toi-sinh-ra-khong-giau-2.jpg",
+        "./assets/img/booklist/VHVN/khi-toi-sinh-ra-khong-giau-3.jpg"
+      ],
+      "author": "Hồ Ngọc Đoan Khương",
+      "publisher": "NXB Phụ Nữ",
+      "year": 2023,
+      "page": 214,
+      "description": "Có những khoảng thời gian, mình ngừng viết vì bận rộn với việc gia đình và mưu sinh. Nhưng may mắn là mình vẫn luôn giữ kết nối với rất nhiều người viết giỏi. Họ và những tác phẩm ấy luôn là nguồn năng lượng giúp mình nuôi dưỡng đam mê được viết. Và khi viết trở lại, mình thấy hạnh phúc vô cùng. Bởi cuối cùng, được làm điều mình thích vẫn luôn là tuyệt nhất. Chúng ta không chọn được chốn sinh ra, nhưng chọn được cách lớn lên và nơi để trưởng thành. Ước mơ, khát vọng và ý chí luôn dẫn dắt chúng ta tiến về phía trước."
+    },
+    {
+      "id": 15,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Lòng ta chôn một khối tình",
+      "price": 80.0,
+      "cover": "./assets/img/booklist/VHVN/long-ta-chon-mot-khoi-tinh-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/long-ta-chon-mot-khoi-tinh-2.jpg",
+        "./assets/img/booklist/VHVN/long-ta-chon-mot-khoi-tinh-3.jpg"
+      ],
+      "author": "Võ Thanh Phú",
+      "publisher": "NXB Tổng hợp TP.HCM",
+      "year": 2023,
+      "page": 176,
+      "description": "\"...Nhưng tôi dám quả quyết, đây là một trong những cuốn sách mà tác giả đã “bung xõa” cảm xúc tới mức không dè dặt, nhìn trước trông sau. Chỉ nghĩ và viết. Viết những gì đã chất chứa, đã suy ngẫm. Hạnh phúc và niềm hoan lạc của nhà văn và trang viết còn chính là đây.\" - LÊ MINH QUỐC"
+    },
+    {
+      "id": 16,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Người bạn triệu phú",
+      "price": 56.0,
+      "cover": "./assets/img/booklist/VHVN/nguoi-ban-trieu-phu-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/nguoi-ban-trieu-phu-2.jpg",
+        "./assets/img/booklist/VHVN/nguoi-ban-trieu-phu-3.jpg"
+      ],
+      "author": "Sơn Nam",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 128,
+      "description": "Người bạn triệu phú kể về cách hành xử của một anh nhà nghèo bỗng nhiên một ngày nọ trở nên giàu xụ nhờ trúng độc đắc. Lúc đầu, anh ta phải giả vờ như không có chuyện gì xảy ra để tránh những con mắt dò xét, trong khi hàng xóm thì đồn đãi... Khi báo đăng ảnh \"nhà tân triệu phú\" trong mục tin vặt, thì mọi chuyện vỡ lẽ. Câu chuyện mang vẻ hài hước, châm biếm nhẹ nhàng này thể hiện một sự căng thẳng giữa sự hiếu kỳ ( tò mò) với đời sống riêng tư cá nhân. Đó cũng là mối căng thẳng của sự tiết chế khi anh nọ đứng giữa ranh giới của sự nghèo khổ và giàu có. Truyện còn cho thấy, sự quan tâm quá mức và không phù hợp sẽ khiến con người ta sợ hãi, phòng thủ..."
+    },
+    {
+      "id": 17,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Trên sao hỏa chỉ có trẻ con",
+      "price": 74.0,
+      "cover": "./assets/img/booklist/VHVN/tren-sao-hoa-chi-co-tre-con-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/tren-sao-hoa-chi-co-tre-con-2.jpg",
+        "./assets/img/booklist/VHVN/tren-sao-hoa-chi-co-tre-con-3.jpg"
+      ],
+      "author": "Hoàng Nhật",
+      "publisher": "NXB Thanh Niên",
+      "year": 2023,
+      "page": 240,
+      "description": "Cuốn sách tập hợp những câu chuyện được tác giả lấy cảm hứng từ chính tuổi thơ của mình, cũng như quan sát và lắng nghe từ người xung quanh. Tuy nhiên cuốn sách này không phải là một bản án kết tội người lớn, ngược lại, những câu chuyện của Trên Sao Hỏa chỉ có trẻ con nhắc nhở chúng ta đã từng là những đứa trẻ mạnh mẽ thế nào. Những đứa trẻ trong câu chuyện này dù gặp biến cố gì trong đời đều tự mình tìm ra cách thoát khỏi nghịch cảnh, thay vì đổ lỗi cho hoàn cảnh hay những người xung quanh. Bạn không thể lựa chọn mình sẽ sinh ra trong gia đình thế nào, nhưng bạn có thể lựa chọn cách trưởng thành tốt đẹp."
+    },
+    {
+      "id": 18,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Trôi",
+      "price": 76.0,
+      "cover": "./assets/img/booklist/VHVN/troi-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/troi-2.jpg",
+        "./assets/img/booklist/VHVN/troi-3.jpg"
+      ],
+      "author": "Nguyễn Ngọc Tư",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 152,
+      "description": "Với Trôi, Nguyễn Ngọc Tư, bằng tài năng kể chuyện hiếm có, đã mở ra một thế giới bất định với những con người cố níu lấy thứ gì đó, đồng thời cũng muốn thoát khỏi nó, trong hành trình trôi nổi dường như vô tận của mình. Độc giả dễ dàng tìm thấy sự đồng cảm nơi mỗi nhân vật, như thể họ là từng phần trong mỗi con người chúng ta - và con người ấy, được mô tả như vật thể lang thang vô định - luôn ở trong trạng thái loay hoay lý giải, làm sáng tỏ về điều mà họ đã mất đi. Và trong hành trình dạt trôi theo quỹ đạo của riêng mình, những vật thể này sượt qua nhau bất giác làm vẩn lên hơi ấm con người, gợi cảm giác cái đẹp được cầm trên tay, thường trực sẵn một nguy cơ tan rã. Sau rốt, liệu rằng các nối kết giữa người với người có đủ bền chặt để mỗi tâm hồn thôi là sự nổi trôi vĩnh viễn?  "
+    },
+    {
+      "id": 19,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Vì cậu là bạn nhỏ của tớ",
+      "price": 140.0,
+      "cover": "./assets/img/booklist/VHVN/vi-cau-la-ban-nho-cua-to-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/vi-cau-la-ban-nho-cua-to-2.jpg",
+        "./assets/img/booklist/VHVN/vi-cau-la-ban-nho-cua-to-3.jpg"
+      ],
+      "author": "Tun Phạm",
+      "publisher": "NXB Phụ Nữ",
+      "year": 2023,
+      "page": 240,
+      "description": "Vì cậu là bạn nhỏ của tớ là cuốn sách đầu tay đánh dấu chặng hành trình phát triển, nỗ lực không ngừng nghỉ của Tác giả, MC, Content Creator Tun Phạm. Nhờ vào góc nhìn và tâm tư sâu sắc, quyển sách như cẩm nang đồng hành cùng thế hệ trẻ vượt qua cơn bão “overthinking” với những cảm xúc, suy nghĩ tiêu cực trong các vấn đề khó khăn thường gặp."
+    },
+    {
+      "id": 20,
+      "type": "Truyện ngắn - Tản văn",
+      "title": "Xin cảm ơn sự mỏng manh này",
+      "price": 86.0,
+      "cover": "./assets/img/booklist/VHVN/xin-cam-on-su-mong-manh-nay-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHVN/xin-cam-on-su-mong-manh-nay-2.jpg",
+        "./assets/img/booklist/VHVN/xin-cam-on-su-mong-manh-nay-3.jpg"
+      ],
+      "author": "Lu",
+      "publisher": "NXB Phụ Nữ",
+      "year": 2023,
+      "page": 200,
+      "description": "Cuốn sách Xin cảm ơn sự mỏng manh này viết dựa trên những trải nghiệm cá nhân, rung cảm sâu sắc về nhân sinh, nơi anh chủ động đối diện với sự chia ly và nỗi cô đơn giữa phố thị phồn hoa trên hành trình đi tìm chính mình. Từng câu chữ trong cuốn sách tạo nên nơi chốn an toàn cho các cảm xúc đang hỗn loạn trong lòng bạn đọc, giúp bạn nhìn thấu tâm tư mình, không bị mắc kẹt lại điểm khởi đầu của cuộc sống và cả những giấc mơ tuổi trẻ."
+    }
+  ],
+  "ForeignLiterature": [
+    {
+      "id": 21,
+      "type": "Văn học Hiện đại",
+      "title": "Bồ câu bay đi tìm bà",
+      "price": 61.0,
+      "cover": "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-2.jpg",
+        "./assets/img/booklist/VHNN/bo-cau-bay-di-tim-ba-3.jpg"
+      ],
+      "author": "Walter Macken",
+      "translator": "Nguyễn Bích Lan",
+      "publisher": "NXB Văn Học",
+      "year": 2021,
+      "page": 220,
+      "description": "Biết bao cảm hứng và tưởng tượng hẳn sẽ được khơi lên từ câu chuyện về anh em nhà họ Dove - hai chú bồ câu bé nhỏ, gan dạ - bỏ nhà vượt biển, tìm kiếm một ngôi làng không biết tên, ở một đất nước không quen thuộc, để đến với bà ngoại - biểu tượng của tình yêu thương mà chúng luôn khao khát."
+    },
+    {
+      "id": 22,
+      "type": "Văn học Hiện đại",
+      "title": "Chú mèo rụng lông không có điểm dừng",
+      "price": 174.0,
+      "cover": "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-2.jpg",
+        "./assets/img/booklist/VHNN/chu-meo-rung-long-khong-co-diem-dung-3.jpg"
+      ],
+      "author": "Kang Ah",
+      "translator": "Nguyễn Hương Giang",
+      "publisher": "NXB Thanh Hoá",
+      "year": 2023,
+      "page": 214,
+      "description": "Chưa từng có cuốn truyện tranh về mèo nào như thế này! Rất thực tế! Truyện tranh về mèo theo phong cách hiện thực khiến bạn đồng cảm 100%! Nhờ bản năng hài hước của chú mèo Cho Seung Dal mà tôi đã cười suốt trong khi đọc."
+    },
+    {
+      "id": 23,
+      "type": "Văn học Hiện đại",
+      "title": "Lắng nghe gió hát",
+      "price": 70.0,
+      "cover": "./assets/img/booklist/VHNN/lang-nghe-gio-hat-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/lang-nghe-gio-hat-2.jpg",
+        "./assets/img/booklist/VHNN/lang-nghe-gio-hat-3.jpg"
+      ],
+      "author": "Haruki Murakami",
+      "translator": "Nguyễn Hồng Anh",
+      "publisher": "NXB Hội Nhà Văn",
+      "year": 2023,
+      "page": 192,
+      "description": "Trong lời giới thiệu bản in tiếng Anh lần đầu tiên. Murakami nói rằng Lắng Nghe Gió Hát và Pinball, 1973 chiếm vị trí quan trọng trong những thành tựu của ông, và rằng chúng có vai trò không gì thay thế nổi, như những người bạn từ thời xưa cũ. Vậy nhưng, tuy tác giả có dè dặt đến mấy khi đánh giá hai tác phâm đầu tay, nhiều độc giả thủy chung của ông có thể chào đón cuốn sách như một người bạn tâm tình kinh điển, đã sớm bộc lộ những gì làm nên chất Murakami trong một hình hài xanh ngát."
+    },
+    {
+      "id": 24,
+      "type": "Văn học Hiện đại",
+      "title": "Một cuốn sách tích cực",
+      "price": 92.0,
+      "cover": "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-2.jpg",
+        "./assets/img/booklist/VHNN/mot-cuon-sach-tich-cuc-3.jpg"
+      ],
+      "author": "Daiki Shimizu",
+      "translator": "Thuỳ Vân",
+      "publisher": "NXB Văn Học",
+      "year": 2023,
+      "page": 216,
+      "description": "Hạnh phúc là thứ bạn chỉ có thể hiểu được khi đã nếm trải nỗi buồn. Nếu như thế giới chỉ toàn màu trắng, thì một ánh sáng trắng có xuất hiện trong đó bạn cũng chẳng thể nhận ra. Chỉ khi biết đến bóng tối, bạn mới biết ánh sáng rực rỡ và quan trọng đến nhường nào. Chúng mình dành tặng bạn cuốn sách này, một cuốn sách tích cực và chữa lành. Mong rằng dù có chuyện gì xảy đến, chịu bao nhiêu uất ức, chúng ta vẫn có thể không ngừng mỉm cười, sống cho hiện tại và hướng về tương lai."
+    },
+    {
+      "id": 25,
+      "type": "Văn học Hiện đại",
+      "title": "Một lít nước mắt",
+      "price": 64.0,
+      "cover": "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-2.jpg",
+        "./assets/img/booklist/VHNN/mot-lit-nuoc-mat-3.jpg"
+      ],
+      "author": "Kito Aya",
+      "translator": "Trần Trọng Đức",
+      "publisher": "NXB Hội Nhà Văn",
+      "year": 2019,
+      "page": 289,
+      "description": "Hơn 6 năm kiên trì viết nhật ký, Aya kể về những cảm nhận và suy tư của bản thân trong suốt quãng thời gian chứng kiến cơ thể mình từng bước từng bước gánh lấy một số phận đau đớn . Nhưng từ trong nước mắt và tật nguyền, cuộc tìm kiếm giá trị bản thân của cô đã làm rúng động cả Nhật Bản."
+    },
+    {
+      "id": 26,
+      "type": "Văn học Hiện đại",
+      "title": "Tâm tư của một chú sứa",
+      "price": 78.0,
+      "cover": "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-2.jpg",
+        "./assets/img/booklist/VHNN/tam-tu-cua-mot-chu-sua-3.jpg"
+      ],
+      "author": "Courtney Peppernell",
+      "translator": "Pastel Sound",
+      "publisher": "NXB Thế Giới",
+      "year": 2022,
+      "page": 232,
+      "description": "Những xúc cảm về tình yêu, về thương tổn, về chính bản thân mình làm mọi thứ trở nên thật hỗn độn, nhưng cũng thật bồng bềnh, như Tâm tư của một chú sứa."
+    },
+    {
+      "id": 27,
+      "type": "Văn học Hiện đại",
+      "title": "Tận cùng của cô đơn",
+      "price": 100.0,
+      "cover": "./assets/img/booklist/VHNN/tan-cung-cua-co-don-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/tan-cung-cua-co-don-2.jpg",
+        "./assets/img/booklist/VHNN/tan-cung-cua-co-don-3.jpg"
+      ],
+      "author": "Benedict Wells",
+      "translator": "Linh Dương",
+      "publisher": "NXB Lao Động",
+      "year": 2021,
+      "page": 358,
+      "description": "Tận cùng của cô đơn là áng văn chiêm nghiệm về sức mạnh của ký ức, về những điều có thể mất và những điều không bao giờ có thể buông bỏ. Với lòng trắc ẩn, sự sáng rõ trong tâm trí cùng tài năng kể chuyện xuất sắc, Benedict Wells đã tạo ra một tác phẩm đẹp đến nao lòng, khiến người đọc thổn thức không thôi và thêm vững tin trên hành trình tìm kiếm hướng đi cho cuộc đời trong khi vẫn không ngừng ôm ấp hy vọng sẽ tìm được người bạn đồng hành trên con đường gian nan đó."
+    },
+    {
+      "id": 28,
+      "type": "Văn học Hiện đại",
+      "title": "Tôi muốn về nhà dù cho đang ở nhà",
+      "price": 79.0,
+      "cover": "./assets/img/booklist/VHNN/toi-muon-ve-nha-du-cho-dang-o-nha-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/toi-muon-ve-nha-du-cho-dang-o-nha-2.jpg"
+      ],
+      "author": "Kwon Rabin",
+      "translator": "Hà Hương",
+      "publisher": "NXB Văn Học",
+      "year": 2023,
+      "page": 200,
+      "description": "Mỗi lần bối rối, lo lắng vì phải đối mặt với môi trường mới lạ lẫm và xa cách, như một bản năng, chúng ta lại tìm về ngôi nhà ấm áp, thân thuộc của mình. Ta như chú ốc sên mang theo ngôi nhà trên lưng để phòng vệ. Ai cũng cần một người thân, một không gian ấm áp như vậy."
+    },
+    {
+      "id": 29,
+      "type": "Văn học Hiện đại",
+      "title": "Việc chẳng đáng bận tâm đâu mà",
+      "price": 84.0,
+      "cover": "./assets/img/booklist/VHNN/viec-chang-dang-ban-tam-dau-ma-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/viec-chang-dang-ban-tam-dau-ma-2.jpg",
+        "./assets/img/booklist/VHNN/viec-chang-dang-ban-tam-dau-ma-3.jpg"
+      ],
+      "author": "Chang Kiha",
+      "translator": "Hi Kate",
+      "publisher": "NXB Dân Trí",
+      "year": 2023,
+      "page": 204,
+      "description": "Không có một định nghĩa chính xác nào cho hạnh phúc. Việc chẳng đáng bận tâm đâu mà - gồm những câu chuyện nhỏ về cuộc đời theo đuổi nghệ thuật đầy kiên trì và những chiêm nghiệm hữu ích dành cho chúng ta - những độc giả trẻ còn e dè nhiều vì những chuyện thực ra cũng chẳng đáng bận tâm."
+    },
+    {
+      "id": 30,
+      "type": "Văn học Hiện đại",
+      "title": "Yêu thầm",
+      "price": 79.0,
+      "cover": "./assets/img/booklist/VHNN/yeu-tham-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/yeu-tham-2.jpg",
+        "./assets/img/booklist/VHNN/yeu-tham-3.jpg"
+      ],
+      "author": "Kwon Rabin",
+      "translator": "Hà Hương",
+      "publisher": "NXB Văn Học",
+      "year": 2023,
+      "page": 200,
+      "description": "Mỗi lần bối rối, lo lắng vì phải đối mặt với môi trường mới lạ lẫm và xa cách, như một bản năng, chúng ta lại tìm về ngôi nhà ấm áp, thân thuộc của mình. Ta như chú ốc sên mang theo ngôi nhà trên lưng để phòng vệ. Ai cũng cần một người thân, một không gian ấm áp như vậy."
+    },
+    {
+      "id": 31,
+      "type": "Văn học Kinh điển",
+      "title": "Chuyện kỳ dị về Benjamin",
+      "price": 204.0,
+      "cover": "./assets/img/booklist/VHNN/chuyen-ky-di-ve-benjamin-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/chuyen-ky-di-ve-benjamin-2.jpg"
+      ],
+      "author": "F. Scott Fitzgerald",
+      "translator": "Nguyễn Việt Hải",
+      "publisher": "NXB Văn Học",
+      "year": 2022,
+      "page": 396,
+      "description": "Chuyện kỳ dị về Benjamin là tuyển tập truyện ngắn của Fitzgerald bao gồm bảy truyện: Chuyện kỳ dị về Benjamin, Cung Băng, Đời nặng hai vai, Thăm lại Babylon, Thiếu gia, Tóc chớm vai và Ước mộng mùa đông. Vẻ đẹp u hoài về sự đổ vỡ và tính biểu tượng về một nước Mỹ khủng hoảng cùng một thế hệ người trẻ chông chênh được thể hiện rõ nét qua những nhân vật như Charlie trong Thăm lại Babylon, nàng Sally trong Cung Băng hay Dexter trong Ước mộng mùa đông. Chính vì lẽ đó, những tác phẩm của Fitzgerald đã đưa tên tuổi ông trở thành một trong những nhà viết truyện ngắn tài ba nhất thế giới nửa đầu Thế kỷ XX."
+    },
+    {
+      "id": 32,
+      "type": "Văn học Kinh điển",
+      "title": "Con mèo đen",
+      "price": 54.0,
+      "cover": "./assets/img/booklist/VHNN/con-meo-den-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/con-meo-den-2.jpg",
+        "./assets/img/booklist/VHNN/con-meo-den-3.jpg"
+      ],
+      "author": "Edgar Allan Poe",
+      "translator": "Nguyên Hương",
+      "publisher": "NXB Kim Đồng",
+      "year": 2022,
+      "page": 152,
+      "description": "Edgar Allan Poe đã thực hiện điều mà chưa nhà văn nào đạt được trước đấy: thổi hồn vào những vùng tăm tối nhất trong tiềm thức con người và giải phóng chúng trên những trang giấy. Tuyển tập Con Mèo đen này sẽ khắc hoạ tài năng xử lí nỗi kinh hoàng và điên loạn của Poe, nổi bật với sự kết hợp giữa logic và ảo giác, hiện thực và bí ẩn."
+    },
+    {
+      "id": 33,
+      "type": "Văn học Kinh điển",
+      "title": "Gatsby vĩ đại",
+      "price": 224.0,
+      "cover": "./assets/img/booklist/VHNN/gatsby-vi-dai-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/gatsby-vi-dai-2.jpg",
+        "./assets/img/booklist/VHNN/gatsby-vi-dai-3.jpg"
+      ],
+      "author": "F. Scott Fitzgerald",
+      "translator": "Nguyễn Minh",
+      "publisher": "NXB Dân Trí",
+      "year": 2022,
+      "page": 310,
+      "description": "Gatsby vĩ đại thường được nhắc đến như câu chuyện về Giấc mơ Mỹ - giấc mơ đổi đời cho những kẻ sinh ra không ngậm thìa bạc, giấc mơ ai cũng được trao cơ hội như ai, và miễn là có đủ tham vọng, đủ khả năng, người ta có thể đạt được bất kỳ thứ gì họ muốn. Một giấc mơ như thế bao giờ cũng có hai mặt: Một mặt lấp lánh ánh sáng khát khao, mặt kia thô ráp đến trần trụi và đau đớn bởi cái giá phải trả rất đắt."
+    },
+    {
+      "id": 34,
+      "type": "Văn học Kinh điển",
+      "title": "Hai vạn dặm dưới biển",
+      "price": 81.0,
+      "cover": "./assets/img/booklist/VHNN/hai-van-dam-duoi-bien-1.jpg",
+      "detailImg": ["./assets/img/booklist/VHNN/hai-van-dam-duoi-bien-2.jpg"],
+      "author": "Jules Verne",
+      "translator": "Đỗ Ca Sơn",
+      "publisher": "NXB Văn Học",
+      "year": 2022,
+      "page": 412,
+      "description": "Hai vạn dặm dưới đáy biển là một trong những tác phẩm thành công nhất của Jules Verne. Rất nhiều năm đã qua, những hiểu biết mọi mặt của con người về biển đã tiến những bước dài. Nhiều khái niệm đã đổi thay về căn bản. Nhưng sự phát triển của khoa học, kỹ thuật không làm chúng ta giảm lòng yêu mến và kính phục Jules Verne, vì cuốn sách này đã góp phần hướng biết bao thanh thiếu niên tiến vào khoa học, và bao người sau này đã trở thành những nhà hải dương học, ngư học và chế tạo tàu ngầm!"
+    },
+    {
+      "id": 35,
+      "type": "Văn học Kinh điển",
+      "title": "Không gia đình",
+      "price": 140.0,
+      "cover": "./assets/img/booklist/VHNN/khong-gia-dinh-1.jpg",
+      "detailImg": ["./assets/img/booklist/VHNN/khong-gia-dinh-2.jpg"],
+      "author": "Hector Malot",
+      "translator": "Huỳnh Lý",
+      "publisher": "NXB Văn Học",
+      "year": 2022,
+      "page": 664,
+      "description": "Không gia đình kể về cậu bé Rê-mi. Rê-mi bị bắt cóc khi còn nhỏ. Sau đó, bị bán để theo một đoàn xiếc thú, rồi dẫn đầu đoàn ấy đi lưu lạc khắc nước Pháp và cuối cùng tìm thấy gia đình. Em bé ấy đã lớn lên trong gian khổ, va chạm với mọi hạng người, sống khắp mọi nơi. Nhưng dù ở đâu, trong cảnh ngộ nào, em vẫn noi theo nếp rèn dạy của cụ Vi-ta-li giữ phẩm chất làm người, đó là lòng yêu lao động, tự trọng, ngay thẳng, biết nhớ ơn nghĩa và luôn luôn muốn làm người có ích."
+    },
+    {
+      "id": 36,
+      "type": "Văn học Kinh điển",
+      "title": "Nhà thờ Đức Bà Paris",
+      "price": 520.0,
+      "cover": "./assets/img/booklist/VHNN/nha-tho-duc-ba-paris-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/nha-tho-duc-ba-paris-2.jpg",
+        "./assets/img/booklist/VHNN/nha-tho-duc-ba-paris-3.jpg"
+      ],
+      "author": "Victor Hugo",
+      "translator": "Mai Vũ Minh Khoa",
+      "publisher": "NXB Văn Học",
+      "year": 2022,
+      "page": 700,
+      "description": "Quanh nhân vật chính là nhà thờ Đức Bà, một xã hội Paris thời Trung cổ đã được tái hiện với tất cả những gì rạng rỡ nhất và suy đồi nhất của nó, không bỏ sót tầng lớp nào từ vua chúa đến thường dân và cả những kẻ dưới đáy xã hội. Trên nền Lễ hội của những kẻ điên, bánh xe số phận đã xoay vần, để các cuộc gặp gỡ định mệnh xảy đến giữa cô vũ nữ Esmeralda xinh đẹp và những người ái mộ nàng. Người mãnh liệt hết mình, kẻ qua quýt vờn quanh, người sẵn sàng hy sinh, kẻ không từ thủ đoạn – họ yêu theo nhiều cách khác biệt và đã hại lẫn nhau vì trò đùa bí ẩn của định mệnh. Trong trò chơi đuổi bắt trớ trêu mà ai cũng mải mê chạy theo cái bóng của ái tình, từng nhân vật đã bộc lộ ra những phẩm chất giấu kín bên trong họ, với những giằng xé hết sức con người mà ta chẳng bao giờ hiểu được nếu chỉ nhìn vào bề nổi của câu chuyện mang hơi hướng người đẹp và quái vật này."
+    },
+    {
+      "id": 37,
+      "type": "Văn học Kinh điển",
+      "title": "Những người phụ nữ bé nhỏ",
+      "price": 311.0,
+      "cover": "./assets/img/booklist/VHNN/nhung-nguoi-phu-nu-be-nho-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/nhung-nguoi-phu-nu-be-nho-2.jpg"
+      ],
+      "author": "Louisa May Alcott",
+      "translator": "Nguyễn Thị Hạnh",
+      "publisher": "NXB Văn Học",
+      "year": 2021,
+      "page": 700,
+      "description": "Hơn 150 năm qua, câu chuyện về chị em nhà March vẫn luôn giữ được sức cuốn hút mãnh liệt, đưa cuốn tiểu thuyết Những người phụ nữ bé nhỏ trở thành một tác phẩm kinh điển của văn học Mỹ, làm say đắm biết bao thế hệ độc giả bởi nét cá tính hồn nhiên cùng những giá trị tư tưởng sâu sắc. Dưới ngòi bút tài hoa của Louisa May Alcott, bức tranh về gia đình nhà March hiện lên đa thanh đa sắc, khắc họa thành công quá trình trưởng thành của bốn cô gái từ lúc đương hoa cho đến khi trở thành những người phụ nữ đích thực: Meg xinh đẹp, thấu đáo; Jo mạnh mẽ, cá tính; Beth nhu mì, lặng lẽ; Amy cầu toàn, thanh lịch."
+    },
+    {
+      "id": 38,
+      "type": "Văn học Kinh điển",
+      "title": "Ông già và biển cả",
+      "price": 38.0,
+      "cover": "./assets/img/booklist/VHNN/ong-gia-va-bien-ca-1.jpg",
+      "detailImg": ["./assets/img/booklist/VHNN/ong-gia-va-bien-ca-2.jpg"],
+      "author": "Ernest Hemingway",
+      "translator": "Lê Huy Bắc",
+      "publisher": "NXB Văn Học",
+      "year": 2023,
+      "page": 120,
+      "description": "Ông già và Biển cả là tác phẩm xuất sắc nhất của Ernest Hemingway. Câu chuyện xoay quanh một ông lão đánh cá người Cuba, Santiago, suốt tám mươi tư ngày không bắt được một con cá nào, cho đến khi ông câu được một con cá kiếm khổng lồ. Ông đã cố gắng chiến đấu suốt ba ngày đêm với con cá kiếm vĩ đại bằng nghị lực phi thường. Sang đến ngày thứ ba, ông dùng lao đâm chết được con cá, buộc nó vào mạn thuyền và mang về. Nhưng trên đường trở về, ông lại bị đàn cá mập đánh hơi thấy mùi của con cá kiếm nên đã ùa tới tấn công. Ông cũng rất dũng cảm đem hết sức mình chống chọi với lũ cá mập, phóng lao và thậm chí dùng cả mái chèo để đánh. Cuối cùng ông giết được khá nhiều con và xua đuổi được chúng đi. Nhưng khi ông về đến bờ và nhìn lại thì con cá kiếm của mình đã bị rỉa hết thịt và chỉ còn lại một bộ xương trơ trọi."
+    },
+    {
+      "id": 39,
+      "type": "Văn học Kinh điển",
+      "title": "Rừng Na Uy",
+      "price": 120.0,
+      "cover": "./assets/img/booklist/VHNN/rung-na-uy-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/rung-na-uy-2.jpg",
+        "./assets/img/booklist/VHNN/rung-na-uy-3.jpg"
+      ],
+      "author": "Haruki Murakami",
+      "translator": "Trịnh Lữ",
+      "publisher": "NXB Hội Nhà Văn",
+      "year": 2021,
+      "page": 556,
+      "description": "Cùng thoát thai từ nỗi buồn thương trong sáng về tồn tại, Rừng Na Uy, bài hát năm nào của Beatles, đã được lấy làm tên gọi cho cuốn tiểu thuyết tình yêu ngọt ngào và u sầu của Haruki Murakami. Bước vào cõi sống của Rừng Na Uy, qua sự sớm cô đơn như định mệnh của những người trẻ tuổi, qua mối tình tay ba vừa quấn quýt xác thân vừa u mặc sầu bi của Naoko-Toru-Midori, người ta cảm thấy ngỡ ngàng trước tình yêu như là nơi trú ngụ duy nhất của người đàn ông và người đàn bà trên thế gian này, và khám phá ra một nỗi buồn mênh mang, trống vắng rất Nhật Bản của thời hiện đại."
+    },
+    {
+      "id": 40,
+      "type": "Văn học Kinh điển",
+      "title": "Trăm năm cô đơn",
+      "price": 159.0,
+      "cover": "./assets/img/booklist/VHNN/tram-nam-co-don-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/VHNN/tram-nam-co-don-2.jpg",
+        "./assets/img/booklist/VHNN/tram-nam-co-don-3.jpg"
+      ],
+      "author": "Gabriel Garcia Marquez",
+      "translator": "Phạm Hữu Lợi, Nguyễn Trung Đức, Nguyễn Quốc Dũng",
+      "publisher": "NXB Văn Học",
+      "year": 2023,
+      "page": 496,
+      "description": "Trăm năm cô đơn là cuốn tiểu thuyết nổi tiếng nhất của nhà văn Gabriel Garcia Marquez. Trăm năm cô đơn được đánh giá là một trong những tác phẩm hay nhất thập niên 1960. Tác phẩm có nhiều bình diện, phản ánh một cách độc đáo cuộc sống của các dân tộc Mỹ Latinh, cả những sự kiện quan trọng trong lịch sử khu vực này. Sự pha trộn giữa các yếu tố hiện thực và hoang đường trong tiểu thuyết đã tạo ra một hệ thẩm mỹ đặc biệt, mà khái quát lên, người ta gọi là chủ nghĩa hiện thực huyền ảo."
+    }
+  ],
+  "Kids": [
+    {
+      "id": 41,
+      "type": "Truyện tranh",
+      "title": "Truyện cổ giáng sinh",
+      "price": 232.0,
+      "cover": "./assets/img/booklist/KIDS/truyen-co-giang-sinh-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/KIDS/truyen-co-giang-sinh-2.jpg",
+        "./assets/img/booklist/KIDS/truyen-co-giang-sinh-3.jpg"
+      ],
+      "author": "Thiên Thanh, Sỹ Hiếu, Văn Huyền Thu",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 56,
+      "description": "Lễ Giáng Sinh gắn liền với nhiều huyền thoại và truyền thuyết được lưu truyền trong dân gian từ nhiều đời nay. Những huyền thoại Giáng Sinh luôn chứa đựng ý nghĩa nhân văn sâu sắc về lòng yêu thương, về niềm tin vào bản thân và điều thiện. Truyện cổ Giáng Sinh xin giới thiệu tới các em nhỏ những truyền thuyết ấy, giúp các em hiểu rõ hơn về những phép nhiệm màu của ngày lễ Noel…"
+    },
+    {
+      "id": 42,
+      "type": "Truyện tranh",
+      "title": "Dòng Sông Của Léonie",
+      "price": 232.0,
+      "cover": "./assets/img/booklist/KIDS/dong-song-cua-leonie-1.jpg",
+      "author": "Céline Person, Amélie Dubois",
+      "translator": "Tú Uyên",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 40,
+      "description": "Một giọt mưa tí tách rơi, khởi đầu nỗi sầu của Léonie. Cô bé chật vật để không bị nhấn chìm bởi dòng sông cứ lớn dần và tràn ra khắp chốn. Thế nhưng dòng nước và nỗi buồn vẫn mạnh hơn tất thảy. May mắn thay, chẳng muộn phiền nào là mãi mãi, sau cơn mưa trời lại sáng… Một câu chuyện ngụ ngôn về nỗi buồn được dẫn dắt vô cùng khéo léo."
+    },
+    {
+      "id": 43,
+      "type": "Truyện tranh",
+      "title": "Cậu bé giấy",
+      "price": 42.0,
+      "cover": "./assets/img/booklist/KIDS/cau-be-giay-1.jpg",
+      "author": "Nicolas Digard, Kerascoët",
+      "translator": "Tú Uyên",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 32,
+      "description": "“CON BỊ CHỌC GHẸO VÌ CON LÀM BẰNG GIẤY. CON MUỐN GIỐNG NHƯ CÁC BẠN KHÁC!” Bị những đứa trẻ khác cô lập, cậu bé bằng giấy mong manh trong thế giới mà kẻ mạnh thống trị. Mệt mỏi vì bị vần vò và vẽ nhăng cuội, cậu bỏ chạy khỏi nhà và nhận ra sự độc đáo của mình thực chất là thế mạnh."
+    },
+    {
+      "id": 44,
+      "type": "Truyện tranh",
+      "title": "Con Sẽ Nhận Ra Mẹ, Dù Ở Bất Cứ Nơi Đâu",
+      "price": 45.0,
+      "cover": "./assets/img/booklist/KIDS/con-se-nhan-ra-me-du-o-bat-cu-noi-dau-1.jpg",
+      "author": "Tịnh Tâm, Scarlett Nguyễn",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 44,
+      "description": "Khi bé được sinh ra, thế giới của mẹ xoay quanh đứa con bé bỏng. Mẹ hiện diện khắp nơi, hóa thân vào vạn vật, vỗ về chở che bé từng ngày, mang đến cho bé tuổi thơ ấm áp, bình yên và tràn ngập niềm vui. Khi bé chập chững từng bước chân đầu đời, mẹ âm thầm dõi theo, lắng nghe và ủng hộ. Mai này lớn lên, bé thành công và đi xa đến mấy, nhưng chỉ cần quay đầu lại là bé nhận ra mẹ vẫn luôn hiện diện ở đây. Vì mẹ là ngôi nhà ngọt ngào, là Mặt Trời yêu thương chẳng bao giờ tắt."
+    },
+    {
+      "id": 45,
+      "type": "Truyện tranh",
+      "title": "Con Sẽ Nhận Ra Bố, Dù Ở Bất Cứ Nơi Đâu",
+      "price": 45.0,
+      "cover": "./assets/img/booklist/KIDS/con-se-nhan-ra-bo-du-o-bat-cu-noi-dau-1.jpg",
+      "author": "Tịnh Tâm, Scarlett Nguyễn",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 44,
+      "description": "Mỗi cô bé hay cậu bé đều là công chúa hay hoàng tử, bởi bố của bé luôn là một vị vua. Bố có thể không hoàn hảo, nhưng bố luôn trao cho bé những điều tốt đẹp nhất, yêu thương bé theo cách hoàn hảo nhất, không ai sánh bằng. Sau này lớn lên, dù bé bay đến chân trời nào, trải nghiệm bao niềm vui ngọt ngào, gặp gỡ bao con người thú vị, thì vẫn luôn có một nơi chốn không thể thay thế. Đó chính là vương quốc được xây đắp bằng tình yêu thương vô bờ bến mà bố đã gửi trao."
+    },
+    {
+      "id": 46,
+      "type": "Truyện tranh",
+      "title": "Cánh Đồng Hoa Cúc Ngưu Bàng",
+      "price": 97.0,
+      "cover": "./assets/img/booklist/KIDS/canh-dong-hoa-cuc-nguu-bang-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/KIDS/canh-dong-hoa-cuc-nguu-bang-2.jpg"
+      ],
+      "author": "Katarzyna Ryrych, Grażyna Rigall",
+      "publisher": "NXB Kim Đồng",
+      "translator": "Nguyễn Chí Thuật",
+      "year": 2023,
+      "page": 128,
+      "description": "Cuốn sách Cánh Đồng Hoa Cúc Ngưu Bàng là câu chuyện xoay quanh cuộc sống của bọn trẻ ở cùng một khu chung cư. Chúng chơi chung trong một cái sân bình thường nhưng lại trở thành nhân chứng của những sự kiện không bình thường. Ai đó biến thành chú ếch, trong đôi bít tất xuất hiện những hố đen, một người bí hiểm mang đám mây có thể làm mưa đến, cái bập bênh bỗng nhiên trở nên sống động, còn từ cái hộp của bà Dora tuôn ra sự tẻ nhạt, chán chường.."
+    },
+    {
+      "id": 47,
+      "type": "Truyện tranh",
+      "title": "Chuyện Này Chuyện Kia",
+      "price": 232.0,
+      "cover": "./assets/img/booklist/KIDS/chuyen-nay-chuyen-kia-1.jpg",
+      "author": "Đốm Đốm",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 144,
+      "description": "Chuyện này chuyện kia - Cổ tích ống tre hạt đậu của nàng tiểu thơ Đốm. Ngày xửa ngày xưa, có vị tiểu thơ Đốm ngây ngô, khờ khạo, luôn xem việc được ăn ngon là chuyện vui vẻ nhất trên đời. Rồi một ngày nọ, nàng đã vô tình va vấp phải vị “Nhân Duyên tiên sinh” là thầy đồ Cáo tuấn tú, nho nhã. Từ ấy, nàng ngày ngày theo thầy đồ đến lớp, trải qua biết bao nhiêu chuyện ống tre hạt đậu mỗi ngày. Những nhân vật mà nàng Đốm gặp gỡ, “buôn” chuyện cùng vừa lạ lẫm lại vừa thân quen biết bao nhiêu. Là Bụt vừa hiền vừa mỏng như giấy. Là cặp đôi Mị Châu – Trọng Thủy suốt ngày chí chóe quanh cái giếng Ngọc. Là Thúy Kiều, bà chủ của quán trà Ngưng Bích kinh doanh phát đạt. Là Đầu Đá luôn quan tâm đến tiểu thơ Đốm cùng với đám tiểu yêu nghịch ngợm, tham ăn lười làm…Tất cả những nhân vật tuy quen mà lạ ấy đã giúp cho câu chuyện tình cảm của thầy đồ Cáo và tiểu thơ Đốm thêm phần màu sắc, thêm phần vui vẻ. Và liệu rằng thầy đồ Cáo có hay biết về tấm chân tình của tiểu thơ Đốm? Hai người có thật sự là nhân duyên tiền định? Câu chuyện kiếp trước của họ trong những mảnh kí ức thoáng qua của Đầu Đá là như thế nào? Hãy cùng bước vào thế giới của nàng tiểu thơ Đốm để tìm câu trả lời nhé!"
+    },
+    {
+      "id": 48,
+      "type": "Nhi đồng",
+      "title": "Nói Dối Mệt Thật Đấy!",
+      "price": 55.0,
+      "cover": "./assets/img/booklist/KIDS/noi-doi-met-that-day-1.jpg",
+      "author": "Park Che Ran, Hong Chan Joo",
+      "translator": "Tố Uyên",
+      "publisher": "NXB Dân Trí",
+      "year": 2023,
+      "page": 84,
+      "description": "Giang sơn khó đổi, bản tính khó dời”, xây dựng thói quen tốt đã khó, nhưng sửa thói xấu lại càng khó hơn. Chính bởi vậy, ngay từ thuở thơ ấu, trẻ nhỏ đã cần được hướng tới những thói quen tốt và sớm uốn nắn, sửa chữa những thói xấu. Điều này hẳn ai cũng biết, những thực hiện được hay không lại là cả một chặng đường gian nan. Nếu những thói quen chưa tốt của trẻ nhỏ cứ bị soi qua lăng kính thiếu sự thấu hiểu của người lớn, để rồi bị phê bình, chỉ trích, vả chẳng chỉ càng khiến cho trẻ nhỏ lấy đó làm lý do để biện minh cho những thiếu sót của mình. Hiểu được điều này, Bộ sách Những thói quen vàng ra đời để đưa ra giải pháp, giúp các bậc phụ huynh gỡ rối trong hành trình nuôi dưỡng con trẻ. Cha mẹ nào chẳng muốn uốn nắn, giúp con sửa chữa những thói xấu, nhưng vấn đề là nói sao cho trẻ chịu nghe? Nếu trẻ chưa chịu nghe? Hãy tạo cơ hội cho trẻ đến với những cuốn sách trong bộ Những thói quen vàng! Kể lại những câu chuyện thú vị xoay quanh các cậu nhõng nhẽo, cô làm biếng, chú nuốt lời, nhóc hoang phí…, bộ sách Những thói quen vàng sẽ là lời nhắn nhủ ý nhị, đầy yêu thương, giúp các bạn nhỏ nhận ra khuyết điểm và tự mình sửa chữa."
+    },
+    {
+      "id": 49,
+      "type": "Nhi đồng",
+      "title": "Chấm đen",
+      "price": 37.0,
+      "cover": "./assets/img/booklist/KIDS/cham-den-su-song-bat-dau-1.jpg",
+      "author": "Thảo Xeko",
+      "publisher": "NXB Kim Đồng",
+      "year": 2021,
+      "page": 28,
+      "description": "Bộ sách Vòng tròn sự sống gồm ba tập với ba ý nghĩa chính: Khởi nguồn sự sống, phát triển bản thân, quay về nguồn cội. Những câu chuyện nhỏ dễ thương sẽ mang đến cho bạn đọc nhỏ tuổi khái niệm đầu tiên về ba giai đoạn quan trọng của một cuộc đời. Mỗi giai đoạn ấy đều có ý nghĩa và sứ mệnh riêng, có những thử thách chông gai mà mỗi chúng ta đều phải vượt qua để có thể sống trọn vẹn. Chấm đen chính là cuộc hành trình đầu tiên, nơi khởi nguồn của sự sống. Một câu chuyện đẹp, đầy tính nhân văn, cho thấy sự sống cao đẹp có thể bắt đầu từ những điều vô cùng nhỏ bé, tình cờ, trải qua bao thăng trầm nhưng nhờ tình yêu thương thì chắc chắn sẽ nảy mầm. Vậy thì làm thế nào mà một chấm đen lại có thể bung mình trở thành một sinh mệnh đẹp đẽ, mời bạn cùng đọc sách nhé!"
+    },
+    {
+      "id": 50,
+      "type": "Nhi đồng",
+      "title": "Ông Ba Bị Và Những Đứa Trẻ Trong Mơ",
+      "price": 42.0,
+      "cover": "./assets/img/booklist/KIDS/ong-ba-bi-va-nhung-dua-tre-trong-mo-1.jpg",
+      "author": "Lạc An",
+      "translator": "Tú Uyên",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 160,
+      "description": "Ông Ba Bị có ba cái bị mang tên Lãng Quên, Giấc Mơ Đẹp và Kí Ức Tuổi Thơ. Khi màn đêm buông xuống cũng là lúc ông đi làm nhiệm vụ: Bắt ác mộng nhét vào bị Lãng Quên, thay vào đó những giấc mơ tuyệt vời lấy từ bị Giấc Mơ Đẹp. Thỉnh thoảng, ông gửi cho những đứa trẻ đã lớn vài giấc mơ từ bị Kí Ức Tuổi Thơ, để chúng không bao giờ quên rằng mình từng là một đứa bé tuyệt vời. Một ngày nọ, ông Ba Bị bị hiểu lầm là một vị ác thần với ba cái bị khủng khiếp chuyên bắt cóc trẻ con. Điều đó làm tất cả trẻ em trên thế giới đều căm ghét ông. Sau gần hai ngàn năm sống trong sầu muộn, ông quyết định phiêu lưu vào giấc mơ của bọn trẻ để tự giải oan cho mình. Kể từ đây, hành trình đầy cảm xúc của ông Ba Bị và những đứa trẻ trong mơ bắt đầu…"
+    },
+    {
+      "id": 51,
+      "type": "Nhi đồng",
+      "title": "Gửi chú bé hay khóc nhè",
+      "price": 45.0,
+      "cover": "./assets/img/booklist/KIDS/gui-chu-be-hay-khoc-nhe-1.jpg",
+      "author": "Nguyễn Văn Thắng",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 52,
+      "description": "“Gửi chú bé hay khóc nhè” chưa hẳn là tinh tuyển, nhưng chọn lọc giới thiệu những bài thơ tâm đắc anh viết trong những năm gần đây, ít nhiều thể hiện phong cách sáng tác của anh. Độc giả có thể tìm thấy ở đấy một tâm hồn, một tấm lòng đôn hậu với trẻ thơ."
+    },
+    {
+      "id": 52,
+      "type": "Nhi đồng",
+      "title": "Con mèo đi giày cao gót",
+      "price": 145.0,
+      "cover": "./assets/img/booklist/KIDS/con-meo-di-giay-cao-got-1.jpg",
+      "author": "Nguyễn Hương",
+      "publisher": "NXB Kim Đồng",
+      "year": 2021,
+      "page": 172,
+      "description": "Không chỉ là cổ tích, mà còn là những ý tứ độc đáo, mới mẻ, đầy bất ngờ… Không chỉ là cổ tích kì ảo, mà còn hàm chứa thế giới hiện đại gần gũi và lung linh lôi cuốn… Không chỉ là ước mong người hiền gặp lành, kẻ xấu bị trừng phạt, mà còn là khát vọng nhân văn cho cái xấu được cảm hóa… Không chỉ là cổ tích mà còn hơn thế nữa…"
+    },
+    {
+      "id": 53,
+      "type": "Nhi đồng",
+      "title": "Lòng hiếu thảo",
+      "price": 37.0,
+      "cover": "./assets/img/booklist/KIDS/long-hieu-thao-1.jpg",
+      "author": "Nguyễn Hạnh, Trần Thị Thanh Nguyên",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 105,
+      "description": "Truyện kể là một phương pháp giáo dục tuyệt vời. Trong từng câu chuyện, người ta thường đặt ra những tình huống thú vị và đưa ra cách giải quyết tình huống đó. Bộ sách 500 Câu chuyện đạo đức được biên soạn với mục đích giúp thanh thiếu niên có những câu chuyện giáo dục hay. Bộ sách gồm nhiều tập với nội dung đa dạng. Tập Lòng hiếu thảo gồm 13 câu chuyện kể về lòng hiếu thảo của con cháu đối với ông bà, cha mẹ."
+    },
+    {
+      "id": 54,
+      "type": "Nhi đồng",
+      "title": "Tình yêu thương",
+      "price": 30.0,
+      "cover": "./assets/img/booklist/KIDS/tinh-yeu-thuong-1.jpg",
+      "author": "Nguyễn Hạnh, Trần Thị Thanh Nguyên",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 100,
+      "description": "Vẫn bằng hình thức đặt ra các tình huống và đưa ra cách giải quyết. Với chủ đề tình yêu thương tập hợp và giới thiệu những câu chuyện đầy cảm động trong mùa giáng sinh. Không cần nhiều chỉ một chút tấm lòng cũng đủ tạo nên niềm hạnh phúc cho những người xung quanh… Biết đâu các em cũng đã từng có những hành động giống với trong chuyện kể, biết đâu một ngày nào đó các em cũng nhận được những sự quan tâm, chia sẻ như thế từ trong cuộc sống này."
+    },
+    {
+      "id": 55,
+      "type": "Nhi đồng",
+      "title": "Gia đình",
+      "price": 36.0,
+      "cover": "./assets/img/booklist/KIDS/gia-dinh-1.jpg",
+      "author": "Nguyễn Hạnh, Trần Thị Thanh Nguyên",
+      "publisher": "NXB Trẻ",
+      "year": 2023,
+      "page": 96,
+      "description": "Bất kể là ai, một cậu bé con vừa mới biết nhớ đến một đại tướng lừng danh trong lịch sử; và bất kể phương trời nào, từ miền quê tươi đẹp châu Á đến những lâu đài nguy nga châu  u, con người đều bước ra từ gia đình. Nói cách khác, gia đình xây dựng lên mỗi cá thể của xã hội. Hạnh phúc lớn lao nhất và cần thiết nhất có lẽ chính là hạnh phúc dưới một mái nhà. Tổ ấm của mỗi người tuy khác nhau, nhưng gia đình luôn là dòng sữa nuôi nấng ta suốt đời, là nguồn động viên lớn lao, là hi vọng luôn ở lại sau khi tất cả những thứ khác đã ra đi, là sự tha thứ vô điều kiện, là nguồn sức mạnh phi thường chỉ bằng lời gọi \"Mẹ ơi!\", \"Ba ơi!\" thật thân thương."
+    },
+    {
+      "id": 56,
+      "type": "Thiếu niên",
+      "title": "Cuộc gặp tình yêu",
+      "price": 69.0,
+      "cover": "./assets/img/booklist/KIDS/cuoc-gap-tinh-yeu-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/KIDS/cuoc-gap-tinh-yeu-2.jpg",
+        "./assets/img/booklist/KIDS/cuoc-gap-tinh-yeu-3.jpg"
+      ],
+      "author": "Giuseppe Conteư",
+      "translator": "Minh Phương",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 236,
+      "description": "Một câu chuyện huyền ảo đã đưa Dante Alighieri, nhà thơ Italia vĩ đại thời Trung cổ đến với thế kỉ 21, để trả giá cho tình yêu mãnh liệt với thơ ca và vẻ đẹp trần thế của mình. Giữa một thành phố hoang tàn và hãi hùng sau cơn đại dịch, Tình yêu đã xuất hiện khi nhà thơ gặp Grace, cô sinh viên trẻ người nước ngoài. Tình yêu lãng mạn đầy kịch tính, hư hư thực thực như được lồng vào tuyệt phẩm thơ ca Thần khúc…"
+    },
+    {
+      "id": 57,
+      "type": "Thiếu niên",
+      "title": "Cuộc đua hạnh phúc",
+      "price": 81.0,
+      "cover": "./assets/img/booklist/KIDS/cuoc-dua-hanh-phuc-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/KIDS/cuoc-dua-hanh-phuc-2.jpg",
+        "./assets/img/booklist/KIDS/cuoc-dua-hanh-phuc-3.jpg"
+      ],
+      "author": "Joo Young-Ha",
+      "translator": "Cát Đông",
+      "publisher": "NXB Kim Đồng",
+      "year": 2023,
+      "page": 40,
+      "description": "“Trên đời này làm gì có thứ gọi là hạnh phúc hoàn hảo, phải không? Tất cả chỉ là ảo tưởng mà thôi.” Jang Mi-ho bất ngờ bị cuốn vào hành trình đi tìm sự thật về cái chết bí ẩn của một người bạn thân thời trung học - Oh Yu-jin. Cùng với đó, những khám phá về thứ được gọi là “Cuộc đua hạnh phúc” trên mạng xã hội Hàn Quốc đã lật mở những bí mật không ai ngờ tới về cuộc đời của Oh Yu-jin, đồng thời cũng là manh mối dẫn Jang Mi-ho đến với sự thật về bi kịch đau lòng còn ẩn giấu."
+    },
+    {
+      "id": 58,
+      "type": "Thiếu niên",
+      "title": "Vệt buồn sau tay áo",
+      "price": 42.0,
+      "cover": "./assets/img/booklist/KIDS/vet-buon-sau-tay-ao-1.jpg",
+      "detailImg": [
+        "./assets/img/booklist/KIDS/vet-buon-sau-tay-ao-2.jpg",
+        "./assets/img/booklist/KIDS/vet-buon-sau-tay-ao-3.jpg"
+      ],
+      "author": "Bảo",
+      "publisher": "NXB Kim Đồng",
+      "year": 2022,
+      "page": 156,
+      "description": "Thanh xuân được tạo nên từ những điều gì? Là niềm vui và hi vọng, là bước chân đi qua tổn thương nuối tiếc, hoặc có thể các thời khắc đối diện chính mình giữa mông lung mộng mơ. “Tôi” hay “cậu ta” hay “cô ấy” của thời gian này hiện lên đẹp đẽ làm sao, để về sau khi ngồi chống tay bên chiếc bàn kí ức, ta mới bàng hoàng nhận ra tất cả đã ở bên kia bến bờ tuổi trẻ. Tập truyện ngắn Vệt buồn sau tay áo của Bảo mang đến cho bạn đọc các nốt xúc cảm tinh khôi, gần gũi phóng khoáng mà cũng vô cùng hư ảo. Chạm tay vào từng trang trong quyển sách này, thêm một lần bạn đắm vào cảm giác vừa trầm lắng vừa nồng nhiệt chỉ có ở tuổi thanh xuân."
+    },
+    {
+      "id": 59,
+      "type": "Thiếu niên",
+      "title": "Cúc dại và tia nắng",
+      "price": 89.0,
+      "cover": "./assets/img/booklist/KIDS/cuc-dai-va-tia-nang-1.jpg",
+      "author": "Dy Duyên",
+      "publisher": "NXB Kim Đồng",
+      "year": 2022,
+      "page": 156,
+      "description": "Cúc dại và tia nắng là một câu chuyện giản dị và xúc động về tình bạn. Cúc dại nhỏ bé mà kiên cường. Tia nắng hồn nhiên và cực kì tốt bụng. Hai người bạn đã cùng nhau đi tìm câu trả lời cho việc vì sao giữa nơi ban công trong căn nhà bỏ hoang, lại có một bông cúc dại ra đời. Và liệu cúc dại có thành công hay không trong việc gieo tiếp hạt mầm sống cho những cây cúc dại tiếp theo? Cúc dại và tia nắng còn là một câu chuyện cảm động về sự quan trọng của gia đình, tình yêu thương, cách mà chúng ta vượt qua nỗi đau và tiếp tục gieo trồng những tin yêu trong cuộc sống."
+    },
+    {
+      "id": 60,
+      "type": "Thiếu niên",
+      "title": "Nắm tay anh đi về phía mặt trời",
+      "price": 45.0,
+      "cover": "./assets/img/booklist/KIDS/nam-tay-anh-di-ve-phia-mat-troi-1.jpg",
+      "author": " Lam Trang",
+      "publisher": "NXB Kim Đồng",
+      "year": 2021,
+      "page": 175,
+      "description": "Tựa như ban mai của một ngày, tuổi thanh xuân tràn ngập các hình dung rực rỡ, khơi gợi mơ ước lên đường tìm kiếm và nhận diện bản thân. Có rung động thuần khiết trước một nụ cười, có niềm vui êm dịu khi nắm tay một ai đó, có cả nước mắt khi cảm xúc ấp ủ còn chưa tỏ bày mà người ấy đã vội đi xa…"
+    },
+    {
+      "id": 61,
+      "type": "Thiếu niên",
+      "title": "Vì mùa xuân nào cũng phải trôi đi",
+      "price": 97.0,
+      "cover": "./assets/img/booklist/KIDS/vi-mua-xuan-nao-cung-phai-troi-di-1.jpg",
+      "author": "Lạc An, Nhiên Phượng",
+      "publisher": "NXB Kim Đồng",
+      "year": 2021,
+      "page": 172,
+      "description": "Phong vị nhẹ nhàng của sách như lời hồi đáp trọn vẹn cho tháng năm tuổi trẻ với những ước mơ tươi đẹp, nỗi cô đơn cùng những rung động rất đỗi ngọt ngào. “Cuốn sách này viết về tuổi trẻ. Chúng tôi kể ra những câu chuyện bình dị, hi vọng khi đọc xong, bạn sẽ tìm thấy điều gì đó cho riêng mình. Đối với chúng tôi, viết là một cách lưu giữ kí ức. Viết để trái tim được lên tiếng, cảm xúc được tỏ bày. Tin rằng, những gì xuất phát từ trái tim sẽ chạm tới trái tim. Mùa Xuân nào cũng phải trôi đi, mong bạn của những năm về sau vẫn luôn dũng cảm bước về phía trước.”"
+    }
+  ]
+}

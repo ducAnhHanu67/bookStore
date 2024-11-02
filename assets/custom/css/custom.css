@@ -1,0 +1,19 @@
+.book-img-container {
+    width: 250px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.product-container {
+    height: 350px;
+    min-width: 200px;
+}
+
+.book-list-container {
+    max-height: 200vh;
+    overflow: scroll;
+}
+
+.cart-img {
+    height: 60px;
+}

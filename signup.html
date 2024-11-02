@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng kí</title>
+    <link rel="icon" href="./assets/img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="./assets/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/lib/Hover-master/css/hover.css" />
+    <link rel="stylesheet" href="./assets/lib/Animate.css" />
+  </head>
+  <body class="bg-light modal-open">
+    <!-- form login using bootstrap -->
+    <div class="w-100 pt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-5">
+          <div class="card p-3 animate__animated animate__bounce">
+            <div class="d-flex flex-column align-items-center">
+              <img
+                src="./assets/img/logo.png"
+                class="w-50 animate__animated animate__swing animate__repeat-3 animate__slow"
+                alt=""
+              />
+              <h3 class="text-success" id="signup-title">Đăng kí</h3>
+            </div>
+            <form id="signup-form">
+              <div class="form-group my-2">
+                <label class="text-secondary" for="email"
+                  >Nhập tên đầy đủ của bạn:</label
+                >
+                <input type="text" class="form-control" id="name" />
+                <span class="notify text-danger d-block" id="name-error"></span>
+              </div>
+              <div class="form-group my-2">
+                <label class="text-secondary" for="email"
+                  >Nhập email của bạn:</label
+                >
+                <input type="text" class="form-control" id="email" />
+                <span
+                  class="notify text-danger d-block"
+                  id="email-error"
+                ></span>
+              </div>
+              <div class="form-group my-2">
+                <label class="text-secondary" for="password"
+                  >Nhập mật khẩu của bạn:</label
+                >
+                <input type="password" class="form-control" id="password" />
+                <span
+                  class="notify text-danger d-block"
+                  id="password-error"
+                ></span>
+              </div>
+              <div class="form-group my-2">
+                <label class="text-secondary" for="password"
+                  >Xác nhận mật khẩu của bạn:</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="confirm-password"
+                />
+                <span
+                  class="notify text-danger d-block"
+                  id="confirm-password-error"
+                ></span>
+              </div>
+              <div
+                class="my-2 d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex flex-column">
+                  <a
+                    href="./signin.html"
+                    class="text-success text-decoration-none hvr-underline-from-center"
+                    >Đăng nhập vào tài khoản sẵn có</a
+                  >
+                  <a
+                    href="./home.html"
+                    class="text-success text-decoration-none hvr-underline-from-center"
+                    >Đi đến trang chủ</a
+                  >
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-outline-success hvr-grow-shadow"
+                >
+                  Đăng kí
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="./assets/custom/js/signup.js"></script>
+</html>
