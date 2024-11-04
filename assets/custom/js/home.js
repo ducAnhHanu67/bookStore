@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const booksToShow = books.slice(currentIndex, currentIndex + itemsToShow);
 
             booksToShow.forEach((book) => {
-                console.log(book, 'dic anh');
 
                 const bookDiv = document.createElement("div");
                 bookDiv.classList.add("col-12", "col-sm-6", "col-lg-4", "d-flex", "justify-content-center", "mt-4", "row");
