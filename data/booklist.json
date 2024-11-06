@@ -381,7 +381,7 @@
       "type": "Humor & Entertainment",
       "title": "On the Wrong Side of the Law",
       "price": 9.72,
-      "cover": "./assets/img/booklist/KIDS/truyen-co-giang-sinh-1.jpg",
+      "cover": "./assets/img/booklist/Humor/On.jpg",
       "detailImg": [
         "./assets/img/booklist/KIDS/truyen-co-giang-sinh-2.jpg",
         "./assets/img/booklist/KIDS/truyen-co-giang-sinh-3.jpg"
@@ -397,7 +397,7 @@
       "type": "Humor & Entertainment",
       "title": "The Achievements of Kamala Harris",
       "price": 15.75,
-      "cover": "./assets/img/booklist/KIDS/dong-song-cua-leonie-1.jpg",
+      "cover": "./assets/img/booklist/Humor/The Achievements of Kamala Harris.jpg",
       "author": "Jason Dudash",
       "translator": "Tú Uyên",
       "publisher": "NXB Kim Đồng",
@@ -410,7 +410,7 @@
       "type": "Humor & Entertainment",
       "title": "Don't Believe Everything You Think:",
       "price": 10.95,
-      "cover": "./assets/img/booklist/KIDS/dont-believe-everything.jpg",
+      "cover": "./assets/img/booklist/Humor/don.jpg",
       "author": "Joseph Nguyen",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -422,7 +422,7 @@
       "type": "Humor & Entertainment",
       "title": "Dinner for Vampire (BEST SELLER)",
       "price": 20.35,
-      "cover": "./assets/img/booklist/KIDS/dinner-for-vampire.jpg",
+      "cover": "./assets/img/booklist/Humor/Dinner.jpg",
       "author": "Bethany Joy Lenz",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -434,7 +434,7 @@
       "type": "Humor & Entertainment",
       "title": "Merlin’s Tour of the Universe, Revised and Updated for the Twenty-First Century",
       "price": 28.69,
-      "cover": "./assets/img/booklist/KIDS/merlin-tour-universe.jpg",
+      "cover": "./assets/img/booklist/Humor/Merlin’s.jpg",
       "author": "Neil de Tyson",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -446,7 +446,7 @@
       "type": "Humor & Entertainment",
       "title": "Guinness World Records 2025",
       "price": 20,
-      "cover": "./assets/img/booklist/KIDS/guinness-world-records-2025.jpg",
+      "cover": "./assets/img/booklist/Humor/Guinness.jpg",
       "author": "Macmillian",
       "publisher": "NXB Kim Đồng",
       "year": 2025,
@@ -458,7 +458,7 @@
       "type": "Humor & Entertainment",
       "title": "Remarkably Bright Creatures: A Novel",
       "price": 18.05,
-      "cover": "./assets/img/booklist/KIDS/remarkably-bright-creatures.jpg",
+      "cover": "./assets/img/booklist/Humor/Remarkably.jpg",
       "author": "Shelby Van Pelt",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -470,7 +470,7 @@
       "type": "Humor & Entertainment",
       "title": "The Book of Bill (Gravity Falls)",
       "price": 29,
-      "cover": "./assets/img/booklist/KIDS/the-book-of-bill.jpg",
+      "cover": "./assets/img/booklist/Humor/The Book of Bill (Gravity Falls).jpg",
       "author": "Alex Hirsch",
       "publisher": "NXB Kim Đồng",
       "year": 2023,
@@ -484,7 +484,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "Connor's Claim (Body Count, #2)",
       "price": 16.28,
-      "cover": "./assets/img/booklist/MYSTERY/connors-claim.jpg",
+      "cover": "./assets/img/booklist/Mystery/Connor's.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/connors-claim-2.jpg",
         "./assets/img/booklist/MYSTERY/connors-claim-3.jpg"
@@ -500,7 +500,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "The Doll's House: A Short Story",
       "price": 11.99,
-      "cover": "./assets/img/booklist/MYSTERY/the-dolls-house.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/The Doll's House.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/the-dolls-house-2.jpg"
       ],
@@ -515,7 +515,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "The Moonflowers: A Novel",
       "price": 14.99,
-      "cover": "./assets/img/booklist/MYSTERY/the-moonflowers.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/The Moonflowers.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/the-moonflowers-2.jpg"
       ],
@@ -530,7 +530,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "Murder at the Foundling Hospital",
       "price": 15.99,
-      "cover": "./assets/img/booklist/MYSTERY/murder-at-foundling-hospital.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/Murder.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/murder-at-foundling-hospital-2.jpg"
       ],
@@ -545,7 +545,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "Not Their Daughter",
       "price": 13.99,
-      "cover": "./assets/img/booklist/MYSTERY/not-their-daughter.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/Not Their Daughter.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/not-their-daughter-2.jpg"
       ],
@@ -560,7 +560,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "Autumns, Awnings, & Arson",
       "price": 15.99,
-      "cover": "./assets/img/booklist/MYSTERY/autumns-awnings-arson.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/Autumns.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/autumns-awnings-arson-2.jpg"
       ],
@@ -590,7 +590,7 @@
       "type": "Mystery, Thriller & Suspense",
       "title": "In Too Deep: A Reacher Novel",
       "price": 17.99,
-      "cover": "./assets/img/booklist/MYSTERY/in-too-deep.jpg",
+      "cover": "./assets/img/booklist/MYSTERY/In Too Deep.jpg",
       "detailImg": [
         "./assets/img/booklist/MYSTERY/in-too-deep-2.jpg"
       ],

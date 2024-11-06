@@ -17,3 +17,81 @@
 .cart-img {
     height: 60px;
 }
+
+/* Đặt màu chữ mặc định là #4c4c79 cho .text-success */
+.text-success {
+    color: #4c4c79 !important;
+}
+
+/* Thay đổi màu nền và màu chữ khi hover cho nút tìm kiếm và nút Your Cart */
+.btn-outline-success.hvr-grow-shadow,
+a.btn-outline-success.px-4.hvr-grow-shadow {
+    color: #4c4c79; /* Màu chữ mặc định */
+    background-color: white; /* Nền mặc định */
+    border-color: #4c4c79; /* Viền mặc định */
+}
+
+.btn-outline-success.hvr-grow-shadow:hover,
+a.btn-outline-success.px-4.hvr-grow-shadow:hover {
+    color: white; /* Màu chữ khi hover */
+    background-color: #4c4c79; /* Nền khi hover */
+    border-color: #4c4c79; /* Viền khi hover */
+}
+
+/* Thay đổi màu icon trong nút tìm kiếm và nút Your Cart */
+button.btn-outline-success.hvr-grow-shadow svg,
+a.btn-outline-success.px-4.hvr-grow-shadow svg {
+    fill: #4c4c79; /* Màu mặc định của icon */
+}
+
+button.btn-outline-success.hvr-grow-shadow:hover svg,
+a.btn-outline-success.px-4.hvr-grow-shadow:hover svg {
+    fill: white; /* Màu icon khi hover */
+}
+
+/* Nút "See details" với màu mặc định và thay đổi khi hover */
+.btn-see-details {
+    color: #4c4c79;
+    background-color: white;
+    border-color: #4c4c79;
+}
+
+.btn-see-details:hover {
+    color: white;
+    background-color: #4c4c79;
+    border-color: #4c4c79;
+}
+a.btn-outline-success.px-4.hvr-grow-shadow:hover .text-success {
+    color: white !important;
+}
+/* Cài đặt kích thước logo trong footer */
+.footer-logo {
+    width: 250px;
+    height: 250px;
+}
+
+/* Căn giữa nội dung và khoảng cách giữa các cột trong footer */
+#footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* Căn chỉnh hàng lề trên trong footer */
+#footer .row.align-items-start {
+    align-items: flex-start;
+    text-align: center;
+}
+
+/* Kích thước logo trong footer */
+.footer-logo {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px; /* Khoảng cách giữa logo và phần Social Media */
+}
+
+/* Khoảng cách trên dưới đồng đều cho các phần */
+#footer .col-md-4 h5 {
+    margin-top: 0; /* Đảm bảo không có khoảng cách trên đầu */
+}
+

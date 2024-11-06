@@ -2,34 +2,54 @@
 fetch("../data/booklist.json")
     .then((response) => response.json())
     .then((jsonData) => {
-        // Hiển thị tất cả sách trong jsonData vào container #book-container
-        initializeAllBooks(jsonData);
+        // Hiển thị tất cả sách từ các danh mục trong jsonData vào container #product-list
+        displayAllProducts(jsonData);
     })
     .catch((error) => console.error("Error loading booklist.json:", error));
 
-// Hàm này sẽ thêm tất cả sách vào container
-function initializeAllBooks(bookList) {
-    const container = document.getElementById("book-container");
+// Hàm này sẽ duyệt qua từng danh mục và hiển thị tất cả sản phẩm trong container #product-list
+function displayAllProducts(bookList) {
+    const container = document.getElementById("product-list");
 
     // Xóa nội dung cũ trong container
     container.innerHTML = "";
 
-    // Lặp qua từng sách trong bookList và tạo phần tử hiển thị
-    bookList.forEach((book) => {
-        const bookElement = document.createElement("div");
-        bookElement.classList.add("col-6", "col-md-4", "col-lg-3", "mb-4");
+    // Duyệt qua từng danh mục trong bookList
+    Object.keys(bookList).forEach((category) => {
+        const books = bookList[category];
 
-        bookElement.innerHTML = `
-            <div class="card h-100">
-                <img src="${book.image}" class="card-img-top" alt="${book.title}">
-                <div class="card-body">
-                    <h5 class="card-title">${book.title}</h5>
-                    <p class="card-text">${book.author}</p>
+        // Duyệt qua từng sách trong danh mục hiện tại
+        books.forEach((book) => {
+            const productElement = document.createElement("div");
+            productElement.classList.add("col-6", "col-md-4", "col-lg-3", "mb-4");
+
+            // Tính toán giá đã giảm 10%
+            const discountedPrice = book.price * 0.9;
+
+            // HTML của mỗi thẻ sản phẩm
+            productElement.innerHTML = `
+                <div class="card h-100 shadow-sm">
+                    <img src="${book.cover}" class="card-img-top" alt="${book.title}">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">${book.title}</h5>
+                        <p class="card-text text-muted">${book.author}</p>
+                        <p class="fw-bold">
+                            <span style="text-decoration: line-through; color: #888;">
+                                ${book.price.toLocaleString("en-US", { style: "currency", currency: "USD" })}
+                            </span>
+                            <span class="text-success ms-2">
+                                ${discountedPrice.toLocaleString("en-US", { style: "currency", currency: "USD" })}
+                            </span>
+                        </p>
+                        <a href="bookDetail.html?id=${book.id}" class="btn btn-outline-success btn-see-details">
+                            See Details
+                        </a>
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
 
-        // Thêm sách vào container
-        container.appendChild(bookElement);
+            // Thêm sản phẩm vào container
+            container.appendChild(productElement);
+        });
     });
 }
