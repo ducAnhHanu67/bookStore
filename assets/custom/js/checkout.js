@@ -1,14 +1,15 @@
 const cart = JSON.parse(localStorage.getItem("cart"));
 const checkout = document.getElementById("checkout");
+
 const renderCart = () => {
   const cartTable = document.getElementById("cart-table");
   let html = `
           <table class="table table-striped">
             <thead>
               <tr class="row">
-                <th class="col-6 text-success">Tên sách</th>
-                <th class="col-3 text-success">Số lượng</th>
-                <th class="col-3 text-success">Giá</th>
+                <th class="col-6 text-success">Book Title</th>
+                <th class="col-3 text-success">Quantity</th>
+                <th class="col-3 text-success">Price</th>
               </tr>
             </thead>
             <tbody>
@@ -55,11 +56,11 @@ const renderTotalPrice = () => {
   }
   totalPrice.innerHTML = `
         <h3 class="text-secondary">
-            Tổng: <span class="text-success">${total.toLocaleString()}.000</span> VNĐ
+            Total: <span class="text-success">${total.toLocaleString()}.000</span> VNĐ
          </h3>
          <div class="row">
             <button class="btn btn-success hvr-grow-shadow my-3 col-8 col-sm-4 col-lg-3" id="order">
-            Đặt hàng
+            Place Order
             </button>
         </div>    
          `;
@@ -75,24 +76,25 @@ const handleOrder = () => {
     localStorage.removeItem("cart");
     checkout.innerHTML = `
         <div class="text-center w-50">
-            <h1 class="text-success">Đặt hàng thành công!</h1>
-            <h3 class="text-secondary">
-            <h3 class="text-secondary">Cảm ơn bạn đã mua hàng!</h3>
-            <a href="home.html" class="btn btn-success hvr-grow-shadow my-3 col-8 col-sm-4 col-lg-3">Trang chủ</a>
+            <h1 class="text-success">Order Successful!</h1>
+            <h3 class="text-secondary">Thank you for your purchase!</h3>
+            <a href="home.html" class="btn btn-success hvr-grow-shadow my-3 col-8 col-sm-4 col-lg-3">Home</a>
         </div>
         `;
   };
 };
+
 renderCart();
 renderTotalPrice();
 
-// validate thông tin thanh toán
+// Validate payment information
 const nameError = document.getElementById("name-error");
 const addressError = document.getElementById("address-error");
 const districtError = document.getElementById("district-error");
 const cityError = document.getElementById("city-error");
 const phoneNumberError = document.getElementById("phone-number-error");
 const payError = document.getElementById("pay-error");
+
 const validateShipmentInfoForm = () => {
   const name = document.getElementById("name").value;
   const address = document.getElementById("address").value;
@@ -107,68 +109,65 @@ const validateShipmentInfoForm = () => {
     district.trim() === "" &&
     city.trim() === "" &&
     phoneNumber.trim() === "" &&
-    pay.trim() === "Chọn hình thức thanh toán"
+    pay.trim() === "Select Payment Method"
   ) {
-    nameError.innerHTML = "Tên đẩy đủ là bắt buộc";
-    addressError.innerHTML = "Địa chỉ là bắt buộc";
-    districtError.innerHTML = "Quận/Huyện là bắt buộc";
-    cityError.innerHTML = "Thành phố là bắt buộc";
-    phoneNumberError.innerHTML = "Số điện thoại là bắt buộc";
-    payError.innerHTML = "Hình thức toán là bắt buộc";
+    nameError.innerHTML = "Full name is required";
+    addressError.innerHTML = "Address is required";
+    districtError.innerHTML = "District is required";
+    cityError.innerHTML = "City is required";
+    phoneNumberError.innerHTML = "Phone number is required";
+    payError.innerHTML = "Payment method is required";
     return false;
   }
 
   if (name.trim() === "") {
-    nameError.innerHTML = "Tên đẩy đủ là bắt buộc";
+    nameError.innerHTML = "Full name is required";
     return false;
   }
 
   if (address.trim() === "") {
-    addressError.innerHTML = "Địa chỉ là bắt buộc";
+    addressError.innerHTML = "Address is required";
     return false;
   }
 
   if (district.trim() === "") {
-    districtError.innerHTML = "Quận/Huyện là bắt buộc";
+    districtError.innerHTML = "District is required";
     return false;
   }
 
   if (city.trim() === "") {
-    cityError.innerHTML = "Thành phố là bắt buộc";
+    cityError.innerHTML = "City is required";
     return false;
   }
 
   if (phoneNumber.trim() === "") {
-    phoneNumberError.innerHTML = "Số điện thoại là bắt buộc";
+    phoneNumberError.innerHTML = "Phone number is required";
     return false;
   }
 
-  if (pay.trim() === "Chọn hình thức thanh toán") {
-    payError.innerHTML = "Hình thức thanh toán là bắt buộc";
+  if (pay.trim() === "Select Payment Method") {
+    payError.innerHTML = "Payment method is required";
     return false;
   }
 
   if (name.length < 6 || name.length > 50) {
-    nameError.innerHTML = "Tên phải từ 6 đến 50 ký tự";
+    nameError.innerHTML = "Name must be between 6 and 50 characters";
     return false;
   }
 
   const nameRegex = /^[a-zA-ZÀ-ỹ ]+$/;
   if (name.trim() && !nameRegex.test(name)) {
-    nameError.innerHTML =
-      "Tên chỉ được chứa chữ cái và khoảng trống giữa các từ";
+    nameError.innerHTML = "Name can only contain letters and spaces";
     return false;
   }
   return true;
 };
 
-// hadle on change input
-
+// Handle input change events
 const handleOnChangeInput = () => {
   const inputs = document.querySelectorAll("input");
   for (const input of inputs) {
     input.oninput = () => {
-      console.log(2);
       nameError.innerHTML = "";
       addressError.innerHTML = "";
       districtError.innerHTML = "";

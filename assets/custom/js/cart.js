@@ -3,17 +3,17 @@ const cart = JSON.parse(localStorage.getItem("cart"));
 const renderCart = () => {
   const cartTable = document.getElementById("cart-table");
   if (cart.length === 0) {
-    cartTable.innerHTML = `<h2 class="text-success text-center m-5 ">Giỏ hàng trống</h2>`;
+    cartTable.innerHTML = `<h2 class="text-success text-center m-5">Cart is empty</h2>`;
     return;
   }
   let html = `
-        <h1 class="text-center text-muted">Giỏ hàng</h1>
+        <h1 class="text-center text-muted">Shopping Cart</h1>
           <table class="table table-striped">
             <thead>
               <tr class="row">
-                <th class="col-6 text-success">Tên sách</th>
-                <th class="col-3 text-success">Số lượng</th>
-                <th class="col-3 text-success">Giá</th>
+                <th class="col-6 text-success">Book Title</th>
+                <th class="col-3 text-success">Quantity</th>
+                <th class="col-3 text-success">Price</th>
               </tr>
             </thead>
             <tbody>
@@ -33,7 +33,7 @@ const renderCart = () => {
                     class="btn w-25 text-decoration-none text-muted hvr-shrink delete-from-cart"
                     id="${book.id}"
                     >
-                    Xóa
+                    Remove
                     </span>
                 </div>
                 </div>
@@ -48,7 +48,7 @@ const renderCart = () => {
                 </div>
             </td>
             <td class="col-3">
-                <p class="m-0" class="price">${book.price.toLocaleString()},000 VNĐ</p>
+                <p class="m-0" class="price">${book.price.toLocaleString()} $</p>
             </td>
             </tr>
             `;
@@ -71,24 +71,23 @@ const renderTotalPrice = () => {
   }
   totalPrice.innerHTML = `
         <h3 class="text-secondary">
-            Tổng: <span class="text-success">${total.toLocaleString()}.000</span> VNĐ
+            Total: <span class="text-success">${total.toLocaleString()}.</span> $
          </h3>
          <div class="row">
-            <button class="btn btn-success hvr-grow-shadow my-3 col-8 col-sm-4 col-lg-3" id ="checkout">
-            Thanh toán
+            <button class="btn btn-success hvr-grow-shadow my-3 col-8 col-sm-4 col-lg-3" id="checkout">
+            Checkout
             </button>
         </div>    
          `;
   handleCheckout();
 };
 
-// hanlde click delete from cart button
+// handle click delete from cart button
 const handleDeleteFromCart = () => {
   const deleteFromCartButtons = document.querySelectorAll(".delete-from-cart");
   for (let i = 0; i < deleteFromCartButtons.length; i++) {
     const button = deleteFromCartButtons[i];
     button.onclick = () => {
-      console.log(1);
       const id = parseInt(button.id);
       deleteFromCart(id);
     };
@@ -117,7 +116,7 @@ const findIndex = (id, cart) => {
   return -1;
 };
 
-// hand change quantity
+// handle change quantity
 const handleChangeQuantity = () => {
   const quantityInputs = document.querySelectorAll(".quantity-input");
   for (let i = 0; i < quantityInputs.length; i++) {
