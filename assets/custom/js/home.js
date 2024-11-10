@@ -100,3 +100,10 @@ function getBookDetail(key) {
     localStorage.setItem("bookInfo", JSON.stringify(bookInfo));
     window.location.href = "bookDetail.html";
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const carousel = new bootstrap.Carousel('#carouselExampleIndicators', {
+        interval: 2000, // 2 seconds
+        ride: 'carousel',
+    });
+});
+
