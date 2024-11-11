@@ -154,7 +154,8 @@
             <div class="row d-flex justify-content-evenly">
                 <div class="col-12 col-md-4 col-lg-3 bg-light py-2 my-4">
                     <!-- Sidebar Danh mục -->
-                    <div class="list-group">
+                    <!-- <div class="list-group">
+
                         <a href="vietnameseLiterature.html"
                             class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">Comic &
                             Graphic
@@ -172,7 +173,32 @@
                             class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">Mystery,
                             Thriller &
                             Suspense</a>
+                    </div> -->
+
+                    <div class="list-group">
+                        <a href="#comic-section"
+                            class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">
+                            Comic & Graphic Novels
+                        </a>
+                        <a href="#scifi-section"
+                            class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">
+                            Science Fiction & Fantasy
+                        </a>
+                        <a href="#romance-section"
+                            class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">
+                            Romance
+                        </a>
+                        <a href="#humor-section"
+                            class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">
+                            Humor
+                            & Entertainment
+                        </a>
+                        <a href="#mystery-section"
+                            class="list-group-item list-group-item-action hvr-box-shadow-outset text-success">
+                            Mystery, Thriller & Suspense
+                        </a>
                     </div>
+
                     <!-- Sidebar hình ảnh quảng cáo -->
                     <div class="card w-100 my-5">
                         <img src="./assets/img/sidebar.jpg"
@@ -191,12 +217,11 @@
 
                 <div class="col-12 col-md-8 col-lg-9 my-4">
                     <!-- Comic & Graphic novels -->
-                    <div class="row ps-2 m-0 position-relative"
+                    <div id="comic-section" class="row ps-2 m-0 position-relative"
                         style="margin: 20px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px;">
                         <div class="col-12 bg-light rounded-2 py-4 ps-4">
                             <h3><a href="#" class="text-decoration-none text-success hvr-grow">Comic & Graphic
-                                    novels</a></h3>
-                            <!-- Nút điều khiển và container sách của Comic & Graphic novels -->
+                                    Novels</a></h3>
                             <button id="prev-btn-comic"
                                 style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
@@ -210,7 +235,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
                                     class="bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
-                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6-6a.5.5 0 0 1 .708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                 </svg>
                             </button>
                             <div id="book-container-comic" class="row"
@@ -219,11 +244,12 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Science fiction & fantasy -->
-                    <div class="row ps-2 mt-5 mx-0 position-relative">
+                    <div id="scifi-section" class="row ps-2 mt-5 mx-0 position-relative">
                         <div class="col-12 bg-light rounded-2 py-4 ps-4">
-                            <h3><a href="#" class="text-decoration-none text-success hvr-grow">Science fiction &
-                                    fantasy</a></h3>
+                            <h3><a href="#" class="text-decoration-none text-success hvr-grow">Science Fiction &
+                                    Fantasy</a></h3>
                             <button id="prev-btn-scifi"
                                 style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
@@ -237,7 +263,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
                                     class="bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
-                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6-6a.5.5 0 0 1 .708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                 </svg>
                             </button>
                             <div id="book-container-scifi" class="row">
@@ -246,8 +272,9 @@
                         </div>
                     </div>
 
+
                     <!-- Romance -->
-                    <div class="row ps-2 mt-5 mx-0 position-relative">
+                    <div id="romance-section" class="row ps-2 mt-5 mx-0 position-relative">
                         <div class="col-12 bg-light rounded-2 py-4 ps-4">
                             <h3><a href="#" class="text-decoration-none text-success hvr-grow">Romance</a></h3>
                             <button id="prev-btn-romance"
@@ -263,7 +290,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
                                     class="bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
-                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6-6a.5.5 0 0 1 .708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                 </svg>
                             </button>
                             <div id="book-container-romance" class="row">
@@ -271,6 +298,63 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Humor -->
+                    <div id="humor-section" class="row ps-2 mt-5 mx-0 position-relative">
+                        <div class="col-12 bg-light rounded-2 py-4 ps-4">
+                            <h3><a href="#" class="text-decoration-none text-success hvr-grow">Humor & Entertainment</a>
+                            </h3>
+                            <button id="prev-btn-humor"
+                                style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </button>
+                            <button id="next-btn-humor"
+                                style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6-6a.5.5 0 0 1 .708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </button>
+                            <div id="book-container-humor" class="row">
+                                <!-- Sách sẽ được thêm vào đây -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mystety -->
+
+                    <div id="mystery-section" class="row ps-2 mt-5 mx-0 position-relative">
+                        <div class="col-12 bg-light rounded-2 py-4 ps-4">
+                            <h3><a href="#" class="text-decoration-none text-success hvr-grow">Mystery, Thriller &
+                                    Suspense</a></h3>
+                            <button id="prev-btn-mystery"
+                                style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </button>
+                            <button id="next-btn-mystery"
+                                style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5A3E36"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0-.708l-6-6a.5.5 0 0 1 .708.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </button>
+                            <div id="book-container-mystery" class="row">
+                                <!-- Sách sẽ được thêm vào đây -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
 
 
 

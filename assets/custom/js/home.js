@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
         { key: "Science fiction & fantasy", containerId: "book-container-scifi", prevBtnId: "prev-btn-scifi", nextBtnId: "next-btn-scifi" },
         { key: "Romance", containerId: "book-container-romance", prevBtnId: "prev-btn-romance", nextBtnId: "next-btn-romance" },
         { key: "Humor & Entertainment", containerId: "book-container-humor", prevBtnId: "prev-btn-humor", nextBtnId: "next-btn-humor" },
+        { key: "Mystery, Thriller & Suspense", containerId: "book-container-mystery", prevBtnId: "prev-btn-mystery", nextBtnId: "next-btn-mystery" } // Thêm dòng này
     ];
+
 
     const itemsToShow = 3; // Số lượng item hiển thị cùng lúc
 
