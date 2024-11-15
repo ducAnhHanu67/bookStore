@@ -46,9 +46,10 @@ function displayComicProducts(bookList) {
                             ${discountedPrice.toLocaleString("en-US", { style: "currency", currency: "USD" })}
                         </span>
                     </p>
-                    <a href="bookDetail.html?id=${book.id}" class="btn btn-outline-success btn-see-details">
+                     <button class="btn btn-outline-success btn-see-details"
+                            onclick="getBookDetail2('Science fiction & fantasy','${book.id}')">
                         See Details
-                    </a>
+                    </button>
                 </div>
             </div>
         `;
@@ -57,3 +58,11 @@ function displayComicProducts(bookList) {
         container.appendChild(productElement);
     });
 }
+function getBookDetail2(type, id) {
+    console.log(type, 'ty', id, 'id');
+
+    const bookInfo = { type, id }; // Lưu type và id của sách
+    localStorage.setItem("bookInfo", JSON.stringify(bookInfo));
+    window.location.href = "bookDetail.html"; // Chuyển đến trang chi tiết
+}
+

@@ -14,7 +14,7 @@ function displayComicProducts(bookList) {
     // Xóa nội dung cũ trong container
     container.innerHTML = "";
 
-    // Lấy danh sách sách trong danh mục "comic"
+    // Lấy danh sách sách trong danh mục "Comic & Graphic novels"
     const comicBooks = bookList["Comic & Graphic novels"];
 
     // Kiểm tra nếu danh mục "comic" tồn tại
@@ -46,9 +46,10 @@ function displayComicProducts(bookList) {
                             ${discountedPrice.toLocaleString("en-US", { style: "currency", currency: "USD" })}
                         </span>
                     </p>
-                    <a href="bookDetail.html?id=${book.id}" class="btn btn-outline-success btn-see-details">
+                    <button class="btn btn-outline-success btn-see-details"
+                            onclick="getBookDetail2('Comic & Graphic novels','${book.id}')">
                         See Details
-                    </a>
+                    </button>
                 </div>
             </div>
         `;
@@ -56,4 +57,13 @@ function displayComicProducts(bookList) {
         // Thêm sản phẩm vào container
         container.appendChild(productElement);
     });
+}
+
+// Hàm lưu thông tin sách và chuyển hướng đến trang chi tiết
+function getBookDetail2(type, id) {
+    console.log(type, 'ty', id, 'id');
+
+    const bookInfo = { type, id }; // Lưu type và id của sách
+    localStorage.setItem("bookInfo", JSON.stringify(bookInfo));
+    window.location.href = "bookDetail.html"; // Chuyển đến trang chi tiết
 }
