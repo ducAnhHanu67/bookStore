@@ -108,4 +108,15 @@ document.addEventListener("DOMContentLoaded", function () {
         ride: 'carousel',
     });
 });
+document.querySelectorAll('.nav-item.position-relative').forEach(item => {
+    item.addEventListener('mouseover', () => {
+        const dropdown = item.querySelector('.dropdown-menu-custom');
+        if (dropdown) dropdown.style.display = 'block';
+    });
+    item.addEventListener('mouseleave', () => {
+        const dropdown = item.querySelector('.dropdown-menu-custom');
+        if (dropdown) dropdown.style.display = 'none';
+    });
+});
+
 

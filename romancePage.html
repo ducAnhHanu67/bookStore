@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romance Page</title>
+    <link rel="icon" href="./assets/img/logo.png" />
+    <link rel="stylesheet" href="./assets/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/lib/Hover-master/css/hover.css" />
+    <link rel="stylesheet" href="./assets/lib/Animate.css" />
+    <link rel="stylesheet" href="./assets/custom/css/custom.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div style="width: 80%; margin: auto;">
+        <!-- header -->
+        <div class="container d-flex justify-content-center bg-light" style="width: 90%;">
+
+            <div class="container row p-1">
+                <div class="col-12 col-md-6 text-muted d-flex justify-content-end justify-content-md-start">
+                    <a class="text-decoration-none text-muted mx-1 hvr-grow" href="#footer">Store system</a>
+                    |
+                    <a class="text-decoration-none text-muted mx-1 hvr-grow" href="#footer">Contact support</a>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end justify-content-md-end"
+                    id="user-action-container">
+                    <a class="text-decoration-none text-muted mx-1 hvr-grow" href="signin.html">Log In</a>|
+                    <a class="text-decoration-none text-muted mx-1 hvr-grow" href="signup.html">
+                        Register</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo and search  -->
+        <div class="container-fluid d-flex justify-content-center">
+            <nav class="container navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand w-25" href="#"><img src="./assets/img/logo.png"
+                            class="w-75 animate__animated animate__bounce" alt="" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex align-items-center justify-content-between"
+                        id="navbarSupportedContent">
+                        <!-- New Navbar Links Section -->
+                        <div>
+                            <ul class="navbar-nav d-flex flex-row me-auto mb-2 mb-lg-0">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active text-success hvr-grow"
+                                        style="white-space: nowrap; font-size: 1.2rem; ;" aria-current="page"
+                                        href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-success hvr-grow"
+                                        style="white-space: nowrap; font-size: 1.2rem; ;" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-success hvr-grow"
+                                        style="white-space: nowrap; font-size: 1.2rem; ;"
+                                        href="product.html">Product</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-success hvr-grow"
+                                        style="white-space: nowrap; font-size: 1.2rem; ;"
+                                        href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <div class="col-12 col-lg-4 my-2">
+                            <form class="d-flex">
+                                <input class="form-control mx-2" type="search"
+                                    placeholder="Enter the name of the book you are looking for" aria-label="Search"
+                                    style="width: 220px;" />
+                                <button class="btn btn-outline-success hvr-grow-shadow" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="col-12 col-lg-4 d-flex  my-1">
+                            <a class="btn btn-outline-success px-4 hvr-grow-shadow" href="cart.html">
+                                <span class="pe-1 text-success"> Your Cart </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Product List Section -->
+        <section class="container-fluid my-5">
+            <h2 class="text-center text-success mb-4">Romance Products</h2>
+            <div id="product-list" class="row g-4 justify-content-center">
+                <!-- Product items will be dynamically generated here -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="container-fluid text-white py-5" style="background-color: #4C4C79; color: white;">
+            <div class="container">
+                <div class="row align-items-start">
+                    <!-- Social Links -->
+                    <div class="col-12 col-md-4 mb-4 text-center">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/logo.png" class="footer-logo animate__animated animate__bounce"
+                                alt="Logo" />
+                        </a>
+                        <h5>Our Social Media</h5>
+                        <div class="d-flex justify-content-center align-items-center my-3">
+                            <a href="#" class="text-white mx-2"><i class="bi bi-facebook fs-3"></i></a>
+                            <a href="#" class="text-white mx-2"><i class="bi bi-tiktok fs-3"></i></a>
+                            <a href="#" class="text-white mx-2"><i class="bi bi-messenger fs-3"></i></a>
+                            <a href="#" class="text-white mx-2"><i class="bi bi-telephone-fill fs-3"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Our Brands -->
+                    <div class="col-12 col-md-4 mb-4 text-center">
+                        <h5>Thuong Mai University</h5>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.902403628176!2d105.77370384885064!3d21.03659072914298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b6163c392f%3A0x1ebf64facbb56d03!2sThuongmai%20University!5e0!3m2!1sen!2s!4v1730739011323!5m2!1sen!2s"
+                            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="col-12 col-md-4 mb-4 text-center">
+                        <h5>Contact Information</h5>
+                        <p>Consultation Hotline: <strong>1900 779 907</strong></p>
+                        <p>Complaint Hotline: <strong>091 708 6650</strong></p>
+                        <p>Partnership Contact: <strong>093 466 4262</strong></p>
+                        <p>Email: <a href="mailto:support@savor.vn" class="text-white">support@thebookconner.vn</a></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./assets/custom/js/romancePage.js"></script>
+<script src="./assets/lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+</html>

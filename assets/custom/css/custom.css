@@ -1,59 +1,66 @@
+/* Kích thước container hình ảnh sách */
 .book-img-container {
     width: 250px;
     height: 420px;
     overflow: hidden;
 }
 
+/* Kích thước container sản phẩm */
 .product-container {
     height: 350px;
     min-width: 200px;
 }
 
+/* Tối ưu hóa danh sách sách cuộn */
 .book-list-container {
     max-height: 200vh;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
+/* Kích thước hình ảnh trong giỏ hàng */
 .cart-img {
     height: 60px;
 }
 
-/* Đặt màu chữ mặc định là #4c4c79 cho .text-success */
+/* Đặt màu chữ mặc định cho .text-success */
 .text-success {
     color: #4c4c79 !important;
 }
 
-/* Thay đổi màu nền và màu chữ khi hover cho nút tìm kiếm và nút Your Cart */
+/* Hiệu ứng hover cho nút tìm kiếm và nút "Your Cart" */
 .btn-outline-success.hvr-grow-shadow,
 a.btn-outline-success.px-4.hvr-grow-shadow {
-    color: #4c4c79; /* Màu chữ mặc định */
-    background-color: white; /* Nền mặc định */
-    border-color: #4c4c79; /* Viền mặc định */
+    color: #4c4c79;
+    background-color: white;
+    border-color: #4c4c79;
+    transition: all 0.3s ease;
 }
 
 .btn-outline-success.hvr-grow-shadow:hover,
 a.btn-outline-success.px-4.hvr-grow-shadow:hover {
-    color: white; /* Màu chữ khi hover */
-    background-color: #4c4c79; /* Nền khi hover */
-    border-color: #4c4c79; /* Viền khi hover */
+    color: white;
+    background-color: #4c4c79;
+    border-color: #4c4c79;
 }
 
-/* Thay đổi màu icon trong nút tìm kiếm và nút Your Cart */
+/* Thay đổi màu icon trong nút tìm kiếm và nút "Your Cart" */
 button.btn-outline-success.hvr-grow-shadow svg,
 a.btn-outline-success.px-4.hvr-grow-shadow svg {
-    fill: #4c4c79; /* Màu mặc định của icon */
+    fill: #4c4c79;
+    transition: fill 0.3s ease;
 }
 
 button.btn-outline-success.hvr-grow-shadow:hover svg,
 a.btn-outline-success.px-4.hvr-grow-shadow:hover svg {
-    fill: white; /* Màu icon khi hover */
+    fill: white;
 }
 
-/* Nút "See details" với màu mặc định và thay đổi khi hover */
+/* Nút "See details" với hiệu ứng hover */
 .btn-see-details {
     color: #4c4c79;
     background-color: white;
     border-color: #4c4c79;
+    transition: all 0.3s ease;
 }
 
 .btn-see-details:hover {
@@ -61,13 +68,17 @@ a.btn-outline-success.px-4.hvr-grow-shadow:hover svg {
     background-color: #4c4c79;
     border-color: #4c4c79;
 }
+
+/* Đảm bảo chữ màu trắng khi hover trong nút "Your Cart" */
 a.btn-outline-success.px-4.hvr-grow-shadow:hover .text-success {
     color: white !important;
 }
+
 /* Cài đặt kích thước logo trong footer */
 .footer-logo {
     width: 250px;
     height: 250px;
+    margin-bottom: 10px;
 }
 
 /* Căn giữa nội dung và khoảng cách giữa các cột trong footer */
@@ -77,21 +88,44 @@ a.btn-outline-success.px-4.hvr-grow-shadow:hover .text-success {
     align-items: center;
     text-align: center;
 }
+
 /* Căn chỉnh hàng lề trên trong footer */
 #footer .row.align-items-start {
     align-items: flex-start;
-    text-align: center;
 }
 
-/* Kích thước logo trong footer */
-.footer-logo {
-    width: 250px;
-    height: 250px;
-    margin-bottom: 10px; /* Khoảng cách giữa logo và phần Social Media */
-}
-
-/* Khoảng cách trên dưới đồng đều cho các phần */
+/* Khoảng cách trên dưới đồng đều cho các phần trong footer */
 #footer .col-md-4 h5 {
-    margin-top: 0; /* Đảm bảo không có khoảng cách trên đầu */
+    margin-top: 0;
 }
 
+/* Hiệu ứng hover cho menu dropdown */
+.nav-item.position-relative:hover .dropdown-menu-custom {
+    display: block;
+}
+
+.dropdown-menu-custom {
+    min-width: 200px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: none;
+    padding: 10px;
+}
+
+.dropdown-menu-custom a {
+    color: #4c4c79;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+}
+
+.dropdown-menu-custom a:hover {
+    background-color: #e9ecef;
+    color: #4c4c79;
+}
