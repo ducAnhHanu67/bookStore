@@ -51,7 +51,7 @@ if (bookInfo) {
       bookTitle.innerHTML = bookData.title;
       bookType.innerHTML = bookTypes[type];
       bookType.href = `${type}.html`;
-      bookPrice.innerHTML = bookData.price + ".00";
+      bookPrice.innerHTML = bookData.price;
       bookPriceOld.innerHTML = Math.floor(bookData.price * 1.4) + ".00";
       bookAuthor.innerHTML = bookData.author;
       bookPublisher.innerHTML = bookData.publisher;

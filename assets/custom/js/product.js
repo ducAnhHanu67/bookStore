@@ -41,9 +41,10 @@ function displayAllProducts(bookList) {
                                 ${discountedPrice.toLocaleString("en-US", { style: "currency", currency: "USD" })}
                             </span>
                         </p>
-                        <a href="bookDetail.html?id=${book.id}" class="btn btn-outline-success btn-see-details">
+                        <button class="btn btn-outline-success btn-see-details" 
+                                onclick="getBookDetail('${book.type}_${book.id}')">
                             See Details
-                        </a>
+                        </button>
                     </div>
                 </div>
             `;
@@ -53,3 +54,11 @@ function displayAllProducts(bookList) {
         });
     });
 }
+function getBookDetail(key) {
+    const [type, id] = key.split("_");
+    const bookInfo = { type, id };
+    localStorage.setItem("bookInfo", JSON.stringify(bookInfo));
+    window.location.href = "bookDetail.html";
+}
+
+
